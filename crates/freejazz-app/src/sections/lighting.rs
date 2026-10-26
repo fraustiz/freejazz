@@ -4,9 +4,9 @@
 pub mod color_picker;
 pub mod effects;
 pub mod icons;
-pub mod preview;
 pub mod library;
 pub mod paint;
+pub mod preview;
 
 use std::collections::BTreeSet;
 use std::time::{Duration, Instant};
@@ -233,10 +233,9 @@ impl LightingUi {
         if shown == target {
             return;
         }
-        let wait = self
-            .sync
-            .sent_at
-            .map_or(Duration::ZERO, |t| PREVIEW_DELAY.saturating_sub(t.elapsed()));
+        let wait = self.sync.sent_at.map_or(Duration::ZERO, |t| {
+            PREVIEW_DELAY.saturating_sub(t.elapsed())
+        });
         if wait.is_zero() {
             device.send(Request::PreviewLed(Box::new(target.clone())));
             self.sync.keyboard = Some(target);
@@ -273,9 +272,9 @@ fn swatch(ui: &mut Ui, p: &Palette, colour: Rgb, active: bool) -> egui::Response
 
 /// A chip with the site's icon of the effect.
 fn effect_chip(ui: &mut Ui, p: &Palette, mode: u8, text: &str, on: bool) -> egui::Response {
-    let galley = ui
-        .painter()
-        .layout_no_wrap(text.to_owned(), crate::ui::theme::regular(12.5), p.text);
+    let galley =
+        ui.painter()
+            .layout_no_wrap(text.to_owned(), crate::ui::theme::regular(12.5), p.text);
     let (rect, response) =
         ui.allocate_exact_size(vec2(galley.size().x + 44.0, 30.0), Sense::click());
     let (fill, stroke, fg) = if on {
@@ -387,8 +386,8 @@ pub fn show(
         hint(
             ui,
             p,
-            "Aperçu approximatif sur le clavier ci-dessus (les motifs réels du clavier \
-             diffèrent un peu). Le choix est aussi envoyé au clavier tout de suite : \
+            "Aperçu sur le clavier ci-dessus, reconstitué d'après le vrai clavier (les \
+             effets réactifs montrent des appuis simulés). Le choix est aussi envoyé au clavier tout de suite : \
              « Annuler » remet l'effet précédent, « Appliquer » le garde.",
         );
     }
