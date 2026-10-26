@@ -1,7 +1,7 @@
 use freejazz_protocol::cmd::Cmd;
 use freejazz_protocol::error::Error;
 use freejazz_protocol::packet::{encode_request, parse_response};
-use freejazz_protocol::transfer::{transfer, TransferOpts};
+use freejazz_protocol::transfer::{TransferOpts, transfer};
 use freejazz_protocol::transport::{
     MockLink, ReportItem, ReportKind, is_site_usage_page, probe, report_items, site_report_len,
 };
@@ -97,7 +97,10 @@ fn a_short_read_response_is_an_error() {
     link.script(0x12, 0, vec![short]);
     link.script(0x12, 24, vec![reply(0x12, 24, 1)]);
     let err = transfer(&mut link, &TransferOpts::read(Cmd::GetKey, 48)).unwrap_err();
-    assert!(matches!(err, Error::Invalid(ref m) if m.contains("short")), "{err:?}");
+    assert!(
+        matches!(err, Error::Invalid(ref m) if m.contains("short")),
+        "{err:?}"
+    );
     // nothing more is asked once a chunk is short
     assert_eq!(link.written.len(), 1);
     // a write's acknowledgement carries no data: accepted
@@ -128,7 +131,10 @@ fn custom_header_cannot_smuggle_denied_command() {
     assert!(link.written.is_empty());
     // the link itself refuses too
     use freejazz_protocol::transport::HidLink;
-    assert!(matches!(link.write(&[0xAA, 0x42, 0]), Err(Error::Denied(0x42))));
+    assert!(matches!(
+        link.write(&[0xAA, 0x42, 0]),
+        Err(Error::Denied(0x42))
+    ));
     assert!(link.written.is_empty());
 }
 

@@ -156,7 +156,12 @@ fn keyboard_area(
                     return KeyLook::default();
                 };
                 let mut look = match keys {
-                    Some(map) if matches!(section, Section::Keys | Section::Advanced | Section::Lighting | Section::Macros) => {
+                    Some(map)
+                        if matches!(
+                            section,
+                            Section::Keys | Section::Advanced | Section::Lighting | Section::Macros
+                        ) =>
+                    {
                         crate::sections::keys::look(key, map.0[index as usize], &labels, p)
                     }
                     Some(map) => KeyLook::label(labels.key_label(key, map.0[index as usize])),
@@ -298,13 +303,7 @@ fn section_panel(
                             crate::sections::macros::show(ui, p, state, &mut sections.macros);
                         }
                         Section::Live => {
-                            crate::sections::live::show(
-                                ui,
-                                p,
-                                state,
-                                selected,
-                                &mut sections.live,
-                            );
+                            crate::sections::live::show(ui, p, state, selected, &mut sections.live);
                         }
                         Section::Settings => {
                             crate::sections::settings::show(ui, p, state, &mut sections.settings);

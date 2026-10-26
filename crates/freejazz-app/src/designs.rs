@@ -21,11 +21,13 @@ pub struct Design {
 pub fn is_reserved_name(name: &str) -> bool {
     let stem = name.split('.').next().unwrap_or("").trim_end();
     let upper = stem.to_ascii_uppercase();
-    matches!(upper.as_str(), "CON" | "PRN" | "AUX" | "NUL" | "CONIN$" | "CONOUT$")
-        || ((upper.starts_with("COM") || upper.starts_with("LPT"))
-            && upper.len() == 4
-            && upper.as_bytes()[3].is_ascii_digit()
-            && upper.as_bytes()[3] != b'0')
+    matches!(
+        upper.as_str(),
+        "CON" | "PRN" | "AUX" | "NUL" | "CONIN$" | "CONOUT$"
+    ) || ((upper.starts_with("COM") || upper.starts_with("LPT"))
+        && upper.len() == 4
+        && upper.as_bytes()[3].is_ascii_digit()
+        && upper.as_bytes()[3] != b'0')
         || ((upper.starts_with("COM") || upper.starts_with("LPT"))
             && ["¹", "²", "³"].iter().any(|d| upper[3..] == **d))
 }

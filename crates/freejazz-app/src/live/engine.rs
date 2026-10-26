@@ -423,8 +423,8 @@ mod tests {
     fn an_engine_never_ends_another_engines_stream() {
         let _g = test_serial();
         let (tx, rx) = channel();
-        let mut old = Engine::start(tx.clone(), "wave", &Value::Null, EngineConfig::headless())
-            .unwrap();
+        let mut old =
+            Engine::start(tx.clone(), "wave", &Value::Null, EngineConfig::headless()).unwrap();
         let new = Engine::start(tx, "ripple", &Value::Null, EngineConfig::headless()).unwrap();
         std::thread::sleep(Duration::from_millis(60));
         old.stop();

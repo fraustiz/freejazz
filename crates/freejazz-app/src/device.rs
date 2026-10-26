@@ -17,10 +17,10 @@ use std::time::{Duration, Instant};
 use freejazz_protocol::backup::load_backup;
 use freejazz_protocol::blocks::{LedEffect, Rgb};
 use freejazz_protocol::calibration::AxisReport;
+use freejazz_protocol::keyboard::ResetKind;
 use freejazz_protocol::live::FRAME_SLOTS;
 use freejazz_protocol::reconnect::{Wait, reconnect_with};
 use freejazz_protocol::transport::{DeviceIdent, HidLink, HidapiLink, Presence};
-use freejazz_protocol::keyboard::ResetKind;
 use freejazz_protocol::{Error, Keyboard, Snapshot};
 
 use crate::backups;
@@ -55,7 +55,10 @@ pub enum Request {
     Restore(Option<PathBuf>),
     /// An app profile (a snapshot file, `profiles.rs`): the keyboard's state is saved
     /// first (like a restore), then the profile is written and read back.
-    ApplyProfile { name: String, path: PathBuf },
+    ApplyProfile {
+        name: String,
+        path: PathBuf,
+    },
     /// Hardware profile (`SET_PROFILE`), only on models with `max_profile > 1`.
     SetProfile(u8),
     // UNVERIFIED-HW: types 1, 2 and 4 were never sent by the site; never run in development.
@@ -959,13 +962,14 @@ impl<P: Port> Manager<P> {
         self.probe_stop();
         let started = match kind {
             // calibration changes what the keyboard holds: a backup first
-            Probe::Calibration => self
-                .require_backup()
-                .map_err(WriteError::message)
-                .and_then(|()| {
-                    let kb = self.kb.as_mut().ok_or_else(|| NO_KEYBOARD.to_owned())?;
-                    kb.start_calibration().map_err(|e| french(&e))
-                }),
+            Probe::Calibration => {
+                self.require_backup()
+                    .map_err(WriteError::message)
+                    .and_then(|()| {
+                        let kb = self.kb.as_mut().ok_or_else(|| NO_KEYBOARD.to_owned())?;
+                        kb.start_calibration().map_err(|e| french(&e))
+                    })
+            }
             Probe::KeyTest => match self.kb.as_mut() {
                 Some(kb) => kb.start_key_test().map_err(|e| french(&e)),
                 None => Err(NO_KEYBOARD.to_owned()),
@@ -1142,10 +1146,7 @@ static WORKER: Mutex<Option<(Sender<Request>, Arc<AtomicBool>)>> = Mutex::new(No
 /// the stored lighting back) and waits for it, `timeout` at most. Nothing to wait for on
 /// the worker's own thread.
 pub fn emergency_stop(timeout: Duration) {
-    let worker = WORKER
-        .lock()
-        .unwrap_or_else(|e| e.into_inner())
-        .take();
+    let worker = WORKER.lock().unwrap_or_else(|e| e.into_inner()).take();
     let Some((tx, done)) = worker else {
         return;
     };

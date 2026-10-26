@@ -528,7 +528,14 @@ mod tests {
         assert_eq!(Version::parse("v0.1.0"), Some(Version(0, 1, 0)));
         assert_eq!(Version::parse("1.20.3"), Some(Version(1, 20, 3)));
         for bad in [
-            "", "v1", "1.2", "1.2.3.4", "1.2.x", "v1.2.3-rc1", "1.2.3+b", "-1.0.0",
+            "",
+            "v1",
+            "1.2",
+            "1.2.3.4",
+            "1.2.x",
+            "v1.2.3-rc1",
+            "1.2.3+b",
+            "-1.0.0",
         ] {
             assert_eq!(Version::parse(bad), None, "{bad}");
         }

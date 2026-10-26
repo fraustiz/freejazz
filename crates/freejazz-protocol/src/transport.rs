@@ -259,7 +259,10 @@ impl MockLink {
 
     /// Queues one reply set for the next unanswered write of `(cmd, addr)`.
     pub fn script(&mut self, cmd: u8, addr: u16, reports: Vec<Vec<u8>>) {
-        self.scripts.entry((cmd, addr)).or_default().push_back(reports);
+        self.scripts
+            .entry((cmd, addr))
+            .or_default()
+            .push_back(reports);
     }
 }
 

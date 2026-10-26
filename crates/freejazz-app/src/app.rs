@@ -557,7 +557,9 @@ impl eframe::App for FreejazzApp {
         if self.state.connected
             && let Some(name) = self.demo_design.take()
             && let Some(edited) = &mut self.state.edited
-            && let Some(d) = crate::designs::bundled().into_iter().find(|d| d.name == name)
+            && let Some(d) = crate::designs::bundled()
+                .into_iter()
+                .find(|d| d.name == name)
         {
             edited.led_effect.mode = freejazz_protocol::blocks::led::MODE_CUSTOM;
             edited.custom_leds = d.leds;

@@ -286,8 +286,7 @@ pub fn show(
     }
 
     if let Some(action) = chosen {
-        let skipped =
-            assign_releasing(&mut edited.keys, &mut edited.dks, layout, &keys, action);
+        let skipped = assign_releasing(&mut edited.keys, &mut edited.dks, layout, &keys, action);
         if skipped > 0 {
             state.notice = Some(format!(
                 "{skipped} touche(s) à action inconnue laissée(s) inchangée(s)"

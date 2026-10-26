@@ -61,7 +61,9 @@ pub fn transfer(link: &mut dyn HidLink, opts: &TransferOpts) -> Result<Vec<u8>> 
     }
     let report_len = link.report_len();
     if report_len <= 8 {
-        return Err(Error::Invalid(format!("report length {report_len} too small")));
+        return Err(Error::Invalid(format!(
+            "report length {report_len} too small"
+        )));
     }
     let chunk = report_len - 8;
     let n = opts.total.div_ceil(chunk);
@@ -79,7 +81,15 @@ pub fn transfer(link: &mut dyn HidLink, opts: &TransferOpts) -> Result<Vec<u8>> 
         };
         let report = match &opts.custom_header {
             Some(h) => encode_custom(h, payload, report_len),
-            None => encode_request(opts.cmd, len as u8, addr, &opts.extra, last, payload, report_len),
+            None => encode_request(
+                opts.cmd,
+                len as u8,
+                addr,
+                &opts.extra,
+                last,
+                payload,
+                report_len,
+            ),
         };
         check_report(&report)?;
         if opts.skip_response {
@@ -117,7 +127,12 @@ pub fn exchange(
     await_response(link, report, cmd, None, timeout_ms, retries)
 }
 
-fn send_chunk(link: &mut dyn HidLink, report: &[u8], opts: &TransferOpts, addr: u16) -> Result<Vec<u8>> {
+fn send_chunk(
+    link: &mut dyn HidLink,
+    report: &[u8],
+    opts: &TransferOpts,
+    addr: u16,
+) -> Result<Vec<u8>> {
     let addr = opts.check_addr.then_some(addr);
     await_response(link, report, opts.cmd, addr, opts.timeout_ms, opts.retries).map(|r| r.data)
 }

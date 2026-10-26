@@ -33,9 +33,7 @@ pub fn set(map: &mut KeyMap, magnetic: &mut MagneticMap, a: &KeyDef, b: &KeyDef,
     assign_pair(map, a, b, action(mode, a.hid, b.hid));
     let limits = ModelLimits::ak980max();
     let first = magnetic.0[usize::from(a.index)];
-    let default_rt = limits
-        .axis(first.axis)
-        .map_or(0.1, |l| l.sensitivity_value);
+    let default_rt = limits.axis(first.axis).map_or(0.1, |l| l.sensitivity_value);
     let rt_on = first.press_rt_mm > 0.0 || first.release_rt_mm > 0.0;
     let separate = rt_on && first.press_rt_mm != first.release_rt_mm;
     let or_default = |v: f32| if v == 0.0 { default_rt } else { v };
@@ -56,11 +54,7 @@ pub fn set(map: &mut KeyMap, magnetic: &mut MagneticMap, a: &KeyDef, b: &KeyDef,
         k.axis = first.axis;
         k.whole_fast = first.whole_fast;
         k.rampage = first.rampage;
-        (k.press_rt_mm, k.release_rt_mm) = if rt_on {
-            (press, release)
-        } else {
-            (0.0, 0.0)
-        };
+        (k.press_rt_mm, k.release_rt_mm) = if rt_on { (press, release) } else { (0.0, 0.0) };
     }
 }
 

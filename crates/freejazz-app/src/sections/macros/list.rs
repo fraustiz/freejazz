@@ -148,11 +148,7 @@ mod tests {
         let mut macros = Macros::default();
         let id = add(&mut macros).unwrap();
         let mut keys = KeyMap::default();
-        let run = KeyAction::from_kind(KeyKind::Macro {
-            id,
-            p2: 0,
-            p3: 0,
-        });
+        let run = KeyAction::from_kind(KeyKind::Macro { id, p2: 0, p3: 0 });
         keys.0[5] = run;
         keys.0[70] = run;
         keys.0[6] = KeyAction::from_kind(KeyKind::Consumer(0xE9));

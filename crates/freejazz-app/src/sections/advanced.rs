@@ -340,8 +340,13 @@ pub fn show(
     }
 
     if let Some(action) = chosen {
-        let skipped =
-            keys_section::assign_releasing(&mut edited.keys, &mut edited.dks, layout, &keys, action);
+        let skipped = keys_section::assign_releasing(
+            &mut edited.keys,
+            &mut edited.dks,
+            layout,
+            &keys,
+            action,
+        );
         if skipped > 0 {
             state.notice = Some(format!(
                 "{skipped} touche(s) à action inconnue laissée(s) inchangée(s)"
@@ -553,7 +558,13 @@ mod tests {
         let (q, d, space) = (index_of(0x14), index_of(0x07), index_of(0x2C));
         let (mut keys, mut table) = (KeyMap::default(), DksTable(vec![dks::new_entry(0, 0x2C)]));
         let mut mag = freejazz_protocol::blocks::magnetic::MagneticMap::default();
-        socd::set(&mut keys, &mut mag, layout.key(q).unwrap(), layout.key(d).unwrap(), 3);
+        socd::set(
+            &mut keys,
+            &mut mag,
+            layout.key(q).unwrap(),
+            layout.key(d).unwrap(),
+            3,
+        );
         keys.0[usize::from(space)] = KeyAction::from_kind(KeyKind::Dks(0));
         let volume = KeyAction::from_kind(KeyKind::Consumer(0xE9));
         // one key of the pair: the other goes back to its default, no half pair
@@ -565,7 +576,13 @@ mod tests {
         assert!(table.0.is_empty());
         assert_eq!(keys.0[usize::from(space)], volume);
         // Mod-Tap from the advanced tab goes through the same path
-        socd::set(&mut keys, &mut mag, layout.key(q).unwrap(), layout.key(d).unwrap(), 3);
+        socd::set(
+            &mut keys,
+            &mut mag,
+            layout.key(q).unwrap(),
+            layout.key(d).unwrap(),
+            3,
+        );
         let mt = mod_tap::action(0xE0, 0x39, 400);
         keys_section::assign_releasing(&mut keys, &mut table, layout, &[d], mt);
         assert_eq!(keys.0[usize::from(d)], mt);

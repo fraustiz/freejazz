@@ -35,7 +35,11 @@ impl Calibration {
             }
             // only a run the user finished is « terminé »; any other end is an abort
             (Phase::Running, false) => {
-                self.phase = if self.finished { Phase::Done } else { Phase::Idle };
+                self.phase = if self.finished {
+                    Phase::Done
+                } else {
+                    Phase::Idle
+                };
                 self.finished = false;
             }
             _ => {}

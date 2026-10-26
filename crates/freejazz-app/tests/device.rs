@@ -467,7 +467,10 @@ fn probes_start_stop_and_calibration_needs_a_backup() {
     connected(&mut m);
     sim.clear_written();
     let events = m.handle(Request::ProbeStart(Probe::KeyTest));
-    assert!(matches!(events.as_slice(), [Event::Probe(Some(Probe::KeyTest))]));
+    assert!(matches!(
+        events.as_slice(),
+        [Event::Probe(Some(Probe::KeyTest))]
+    ));
     assert!(m.probing() && m.pump_probe().is_empty());
     let events = m.handle(Request::ReadAll);
     assert!(matches!(events[0], Event::Probe(None)), "{events:?}");
@@ -516,7 +519,10 @@ fn apply_profile_backs_up_first() {
         name: "Actuel".into(),
         path,
     });
-    assert!(matches!(events.as_slice(), [Event::Failed(_)]), "{events:?}");
+    assert!(
+        matches!(events.as_slice(), [Event::Failed(_)]),
+        "{events:?}"
+    );
     assert!(sets(&sim).is_empty());
 }
 
@@ -566,15 +572,24 @@ fn a_write_during_a_stream_is_not_undone_by_its_end() {
     let mut m = manager(&sim, dir.path());
     let base = connected(&mut m);
     let events = m.handle(Request::LiveBegin);
-    assert!(matches!(events.as_slice(), [Event::LiveStarted(true)]), "{events:?}");
+    assert!(
+        matches!(events.as_slice(), [Event::LiveStarted(true)]),
+        "{events:?}"
+    );
     let mut edited = edit(&base);
     edited.led_effect.brightness = 2;
-    assert!(matches!(m.handle(Request::Apply(Box::new(edited))).as_slice(), [Event::Applied(_)]));
+    assert!(matches!(
+        m.handle(Request::Apply(Box::new(edited))).as_slice(),
+        [Event::Applied(_)]
+    ));
     sim.clear_written();
     m.handle(Request::LiveEnd);
     let led = led_writes(&sim);
     assert_eq!(led.len(), 1);
-    assert_eq!(led[0][9], 2, "the end writes the new stored effect, not the old one");
+    assert_eq!(
+        led[0][9], 2,
+        "the end writes the new stored effect, not the old one"
+    );
 }
 
 #[test]
@@ -674,7 +689,10 @@ fn the_worker_ends_streams_and_previews_before_it_stops() {
     }
     handle.send(Request::LiveBegin);
     for _ in 0..3 {
-        handle.send(Request::LiveFrame(Box::new([Default::default(); freejazz_protocol::live::FRAME_SLOTS]), 0));
+        handle.send(Request::LiveFrame(
+            Box::new([Default::default(); freejazz_protocol::live::FRAME_SLOTS]),
+            0,
+        ));
     }
     sim.clear_written();
     assert!(handle.shutdown(Duration::from_secs(2)), "the worker ended");

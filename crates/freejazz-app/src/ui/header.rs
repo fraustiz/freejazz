@@ -2,8 +2,8 @@
 
 use eframe::egui::{self, Align, Layout, RichText, Ui};
 
-use super::theme::{self, Palette};
 use super::profile_switcher::{self, ProfileSwitcher};
+use super::theme::{self, Palette};
 use super::{UiAction, pill};
 use crate::app::{AppState, Link};
 

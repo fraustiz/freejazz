@@ -174,7 +174,13 @@ fn key_test_column(
     let mut on = st.probe == Some(Probe::KeyTest);
     if super::row(ui, p, "Essayer la profondeur (expérimental)", |ui| {
         let usable = state.experimental || on;
-        switch(ui, p, &mut on, usable && state.connected && !busy && !calibrating).changed()
+        switch(
+            ui,
+            p,
+            &mut on,
+            usable && state.connected && !busy && !calibrating,
+        )
+        .changed()
     })
     .inner
     {

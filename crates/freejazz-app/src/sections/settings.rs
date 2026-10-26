@@ -46,7 +46,9 @@ impl BackupList {
                 backups::list_backups_in(dir),
             ));
         }
-        self.read.as_ref().map_or(&[], |(_, _, list)| list.as_slice())
+        self.read
+            .as_ref()
+            .map_or(&[], |(_, _, list)| list.as_slice())
     }
 
     /// The folder changed (import, restore, reset): read it again next time.
@@ -259,7 +261,11 @@ fn updates(ui: &mut Ui, p: &Palette, st: &mut SettingsUi) {
     ui.add_space(10.0);
     heading(ui, p, "À propos");
     ui.horizontal(|ui| {
-        hint(ui, p, &format!("Freejazz {} · licence MIT ·", updater::VERSION));
+        hint(
+            ui,
+            p,
+            &format!("Freejazz {} · licence MIT ·", updater::VERSION),
+        );
         if ui.link("github.com/fraustiz/freejazz").clicked() {
             updater::open_url(updater::REPO_URL);
         }

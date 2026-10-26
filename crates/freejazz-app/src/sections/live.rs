@@ -158,8 +158,7 @@ impl LiveUi {
             Event::LiveStarted(false) if self.engine.is_some() => {
                 self.stop();
                 self.status = Some((
-                    "Le clavier n'a pas accepté l'effet en direct (voir le message en haut)"
-                        .into(),
+                    "Le clavier n'a pas accepté l'effet en direct (voir le message en haut)".into(),
                     true,
                 ));
             }
@@ -514,19 +513,15 @@ mod tests {
     /// A handle whose worker only records the requests it gets.
     fn recording_device() -> (DeviceHandle, std::sync::mpsc::Receiver<Request>) {
         let (tx, rx) = std::sync::mpsc::channel();
-        let device = DeviceHandle::spawn(
-            DeviceKind::Mock,
-            std::sync::Arc::new(|| {}),
-            move |io| {
-                for r in io.requests.iter() {
-                    let stop = matches!(r, Request::Stop);
-                    let _ = tx.send(r);
-                    if stop {
-                        break;
-                    }
+        let device = DeviceHandle::spawn(DeviceKind::Mock, std::sync::Arc::new(|| {}), move |io| {
+            for r in io.requests.iter() {
+                let stop = matches!(r, Request::Stop);
+                let _ = tx.send(r);
+                if stop {
+                    break;
                 }
-            },
-        );
+            }
+        });
         (device, rx)
     }
 
@@ -552,7 +547,11 @@ mod tests {
         std::thread::sleep(std::time::Duration::from_millis(120));
         assert_eq!(live.running(), Some(&Running::Card("aurora")));
         let requests: Vec<Request> = rx.try_iter().collect();
-        assert_eq!(names(&requests), ["begin", "end", "begin"], "the new stream runs");
+        assert_eq!(
+            names(&requests),
+            ["begin", "end", "begin"],
+            "the new stream runs"
+        );
         let last_begin = requests
             .iter()
             .rposition(|r| matches!(r, Request::LiveBegin))
