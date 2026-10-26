@@ -1,0 +1,16 @@
+[package]
+name = "freejazz-protocol"
+description = "HID protocol of the Ajazz AK980 Max (packets, blocks, transport)"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
+hidapi = { version = "2.6", default-features = false, features = ["windows-native"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+
+[dev-dependencies]
+tempfile = "3"

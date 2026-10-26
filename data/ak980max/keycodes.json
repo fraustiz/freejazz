@@ -1,0 +1,729 @@
+[
+  {
+    "page": "KEYBOARD",
+    "name": "A",
+    "value": 4,
+    "fr": "Q"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "B",
+    "value": 5
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "C",
+    "value": 6
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "D",
+    "value": 7
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "E",
+    "value": 8,
+    "fr": "E€"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "F",
+    "value": 9
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "G",
+    "value": 10
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "H",
+    "value": 11
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "I",
+    "value": 12
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "J",
+    "value": 13
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "K",
+    "value": 14
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "L",
+    "value": 15
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "M",
+    "value": 16,
+    "fr": ",?"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "N",
+    "value": 17
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "O",
+    "value": 18
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "P",
+    "value": 19
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Q",
+    "value": 20,
+    "fr": "A"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "R",
+    "value": 21
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "S",
+    "value": 22
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "T",
+    "value": 23
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "U",
+    "value": 24
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "V",
+    "value": 25
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "W",
+    "value": 26,
+    "fr": "Z"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "X",
+    "value": 27
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Y",
+    "value": 28
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Z",
+    "value": 29,
+    "fr": "W"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "1 !",
+    "value": 30,
+    "fr": "1&"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "2 @",
+    "value": 31,
+    "fr": "2é~"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "3 #",
+    "value": 32,
+    "fr": "3\"#"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "4 $",
+    "value": 33,
+    "fr": "4'{"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "5 %",
+    "value": 34,
+    "fr": "5(["
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "6 ^",
+    "value": 35,
+    "fr": "6-|"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "7 &",
+    "value": 36,
+    "fr": "7è`"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "8 *",
+    "value": 37,
+    "fr": "8_\\"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "9 (",
+    "value": 38,
+    "fr": "9ç^"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "0 )",
+    "value": 39,
+    "fr": "0à@"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "ˉ -",
+    "value": 45,
+    "fr": "°)]"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "= +",
+    "value": 46,
+    "fr": "=+}"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "[ {",
+    "value": 47,
+    "fr": "^¨"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "] }",
+    "value": 48,
+    "fr": "$£¤"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "\\ |",
+    "value": 49
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "; :",
+    "value": 51,
+    "fr": "M"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "' \"",
+    "value": 52,
+    "fr": "ù%"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "` ~",
+    "value": 53,
+    "fr": "²"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": ",<",
+    "value": 54,
+    "fr": ";."
+  },
+  {
+    "page": "KEYBOARD",
+    "name": ".>",
+    "value": 55,
+    "fr": ":/"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "/?",
+    "value": 56,
+    "fr": "!§"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "\\",
+    "value": 100,
+    "fr": "><"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "\\",
+    "value": 50,
+    "fr": "*µ"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Fn",
+    "value": 175
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Esc",
+    "value": 41,
+    "fr": "Echap"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Tab",
+    "value": 43
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Caps",
+    "value": 57
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Backspace",
+    "value": 42
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Enter",
+    "value": 40
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Space Bar",
+    "value": 44
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "L-Ctrl",
+    "value": 224,
+    "param1": 1
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "R-Ctrl",
+    "value": 228,
+    "param1": 16
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "L-Shift",
+    "value": 225,
+    "param1": 2
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "R-Shift",
+    "value": 229,
+    "param1": 32
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "L-Alt",
+    "value": 226,
+    "param1": 4
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "R-Alt",
+    "value": 230,
+    "param1": 64,
+    "fr": "AltGr"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "L-Win",
+    "value": 227,
+    "param1": 8
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Super",
+    "value": 101
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "↑",
+    "value": 82
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "↓",
+    "value": 81
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "→",
+    "value": 79
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "←",
+    "value": 80
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Home",
+    "value": 74
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "End",
+    "value": 77,
+    "fr": "Fin"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Ins",
+    "value": 73
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Del",
+    "value": 76,
+    "fr": "Suppr"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "PgUp",
+    "value": 75,
+    "fr": "Pgpr"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "PgDn",
+    "value": 78,
+    "fr": "Pgsv"
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Print",
+    "value": 70
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Scroll",
+    "value": 71
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Pause",
+    "value": 72
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "F1",
+    "value": 58
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "F2",
+    "value": 59
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "F3",
+    "value": 60
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "F4",
+    "value": 61
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "F5",
+    "value": 62
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "F6",
+    "value": 63
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "F7",
+    "value": 64
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "F8",
+    "value": 65
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "F9",
+    "value": 66
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "F10",
+    "value": 67
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "F11",
+    "value": 68
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "F12",
+    "value": 69
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Num Lock",
+    "value": 83
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Num 1",
+    "value": 89
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Num 2",
+    "value": 90
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Num 3",
+    "value": 91
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Num 4",
+    "value": 92
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Num 5",
+    "value": 93
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Num 6",
+    "value": 94
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Num 7",
+    "value": 95
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Num 8",
+    "value": 96
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Num 9",
+    "value": 97
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Num 0",
+    "value": 98
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Num /",
+    "value": 84
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Num .",
+    "value": 99
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Num *",
+    "value": 85
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Num -",
+    "value": 86
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Num +",
+    "value": 87
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "Num Enter",
+    "value": 88
+  },
+  {
+    "page": "KEYBOARD",
+    "name": "⊠",
+    "value": 111
+  },
+  {
+    "page": "MOUSE",
+    "name": "鼠标左键",
+    "value": 1,
+    "param1": 1,
+    "fr": "Bouton gauche de la souris"
+  },
+  {
+    "page": "MOUSE",
+    "name": "鼠标中键",
+    "value": 4,
+    "param1": 1,
+    "fr": "Bouton du milieu de la souris"
+  },
+  {
+    "page": "MOUSE",
+    "name": "鼠标右键",
+    "value": 2,
+    "param1": 1,
+    "fr": "Bouton droit de la souris"
+  },
+  {
+    "page": "MOUSE",
+    "name": "鼠标向上滚动",
+    "value": 1,
+    "param1": 3,
+    "fr": "Défilement de la souris vers le haut"
+  },
+  {
+    "page": "MOUSE",
+    "name": "鼠标向下滚动",
+    "value": 255,
+    "param1": 3,
+    "fr": "Défilement de la souris vers le bas"
+  },
+  {
+    "page": "MOUSE",
+    "name": "鼠标前进键",
+    "value": 16,
+    "param1": 1,
+    "fr": "Bouton avant de la souris"
+  },
+  {
+    "page": "MOUSE",
+    "name": "鼠标后退键",
+    "value": 8,
+    "param1": 1,
+    "fr": "Bouton arrière de la souris"
+  },
+  {
+    "page": "CONSUMER_KEY",
+    "name": "我的电脑",
+    "value": 404,
+    "fr": "Mon ordinateur"
+  },
+  {
+    "page": "CONSUMER_KEY",
+    "name": "计算器",
+    "value": 402,
+    "fr": "Calculatrice"
+  },
+  {
+    "page": "CONSUMER_KEY",
+    "name": "邮箱",
+    "value": 394,
+    "fr": "E-mail"
+  },
+  {
+    "page": "CONSUMER_KEY",
+    "name": "多媒体",
+    "value": 387,
+    "fr": "Multimédia"
+  },
+  {
+    "page": "CONSUMER_KEY",
+    "name": "播放/暂停",
+    "value": 205,
+    "fr": "Lecture/Pause"
+  },
+  {
+    "page": "CONSUMER_KEY",
+    "name": "播放停止",
+    "value": 183,
+    "fr": "Arrêter la lecture"
+  },
+  {
+    "page": "CONSUMER_KEY",
+    "name": "上一首",
+    "value": 182,
+    "fr": "Piste précédente"
+  },
+  {
+    "page": "CONSUMER_KEY",
+    "name": "下一首",
+    "value": 181,
+    "fr": "Piste suivante"
+  },
+  {
+    "page": "CONSUMER_KEY",
+    "name": "音量 +",
+    "value": 233,
+    "fr": "Volume +"
+  },
+  {
+    "page": "CONSUMER_KEY",
+    "name": "音量 -",
+    "value": 234,
+    "fr": "Volume -"
+  },
+  {
+    "page": "CONSUMER_KEY",
+    "name": "静音",
+    "value": 226,
+    "fr": "Muet"
+  },
+  {
+    "page": "CONSUMER_KEY",
+    "name": "主页",
+    "value": 547,
+    "fr": "Accueil"
+  },
+  {
+    "page": "CONSUMER_KEY",
+    "name": "刷新",
+    "value": 551,
+    "fr": "Rafraîchir"
+  },
+  {
+    "page": "CONSUMER_KEY",
+    "name": "前进",
+    "value": 549,
+    "fr": "Avancer"
+  },
+  {
+    "page": "CONSUMER_KEY",
+    "name": "后退",
+    "value": 548,
+    "fr": "Reculer"
+  },
+  {
+    "page": "CONSUMER_KEY",
+    "name": "收藏",
+    "value": 554,
+    "fr": "Favoris"
+  },
+  {
+    "page": "CONSUMER_KEY",
+    "name": "搜索",
+    "value": 545,
+    "fr": "Recherche"
+  }
+]

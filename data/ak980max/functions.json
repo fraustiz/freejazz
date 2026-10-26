@@ -1,0 +1,1985 @@
+[
+  {
+    "page": "FUNC",
+    "value": 1,
+    "name": "恢复出厂设置",
+    "fr": "Restaurer les paramètres d'usine"
+  },
+  {
+    "page": "FUNC",
+    "value": 2,
+    "name": "蓝牙通道1",
+    "fr": "Canal Bluetooth 1"
+  },
+  {
+    "page": "FUNC",
+    "value": 3,
+    "name": "蓝牙通道2",
+    "fr": "Canal Bluetooth 2"
+  },
+  {
+    "page": "FUNC",
+    "value": 4,
+    "name": "蓝牙通道3",
+    "fr": "Canal Bluetooth 3"
+  },
+  {
+    "page": "FUNC",
+    "value": 5,
+    "name": "无线回连",
+    "fr": "Reconnexion sans fil"
+  },
+  {
+    "page": "FUNC",
+    "value": 6,
+    "name": "F区转换",
+    "fr": "Changement de la zone F"
+  },
+  {
+    "page": "FUNC",
+    "value": 7,
+    "name": "查询电量",
+    "fr": "Vérifier la batterie"
+  },
+  {
+    "page": "FUNC",
+    "value": 8,
+    "name": "WIN"
+  },
+  {
+    "page": "FUNC",
+    "value": 9,
+    "name": "MAC"
+  },
+  {
+    "page": "FUNC",
+    "value": 10,
+    "name": "ANDROID"
+  },
+  {
+    "page": "FUNC",
+    "value": 11,
+    "name": "灯光效果切换",
+    "fr": "Changement d'effet lumineux"
+  },
+  {
+    "page": "FUNC",
+    "value": 12,
+    "name": "灯光颜色切换",
+    "fr": "Changement de couleur des lumières"
+  },
+  {
+    "page": "FUNC",
+    "value": 13,
+    "name": "灯光亮度+",
+    "fr": "Augmenter la luminosité des lumières"
+  },
+  {
+    "page": "FUNC",
+    "value": 14,
+    "name": "灯光亮度-",
+    "fr": "Diminuer la luminosité des lumières"
+  },
+  {
+    "page": "FUNC",
+    "value": 15,
+    "name": "灯光速度+",
+    "fr": "Augmenter la vitesse des lumières"
+  },
+  {
+    "page": "FUNC",
+    "value": 16,
+    "name": "灯光速度-",
+    "fr": "Diminuer la vitesse des lumières"
+  },
+  {
+    "page": "FUNC",
+    "value": 17,
+    "name": "关闭灯光",
+    "fr": "Éteindre les lumières"
+  },
+  {
+    "page": "FUNC",
+    "value": 18,
+    "name": "ALT + TAB"
+  },
+  {
+    "page": "FUNC",
+    "value": 19,
+    "name": "WIN + E"
+  },
+  {
+    "page": "FUNC",
+    "value": 20,
+    "name": "WIN + TAB"
+  },
+  {
+    "page": "FUNC",
+    "value": 21,
+    "name": "WIN + H"
+  },
+  {
+    "page": "FUNC",
+    "value": 22,
+    "name": "锁定Win",
+    "fr": "Lock Win"
+  },
+  {
+    "page": "FUNC",
+    "value": 23,
+    "name": "侧灯效果切换",
+    "fr": "Changement d'effet des lumières latérales"
+  },
+  {
+    "page": "FUNC",
+    "value": 24,
+    "name": "侧灯颜色切换",
+    "fr": "Changement de couleur des lumières latérales"
+  },
+  {
+    "page": "FUNC",
+    "value": 25,
+    "name": "侧灯亮度调节",
+    "fr": "Réglage de la luminosité des lumières latérales"
+  },
+  {
+    "page": "FUNC",
+    "value": 26,
+    "name": "侧灯速度调节",
+    "fr": "Réglage de la vitesse des lumières latérales"
+  },
+  {
+    "page": "FUNC",
+    "value": 27,
+    "name": "正面灯条效果切换",
+    "fr": "Changement d'effet de la bande lumineuse frontale"
+  },
+  {
+    "page": "FUNC",
+    "value": 28,
+    "name": "正面灯条速度调节",
+    "fr": "Réglage de la vitesse de la bande lumineuse frontale"
+  },
+  {
+    "page": "FUNC",
+    "value": 29,
+    "name": "正面灯条颜色切换",
+    "fr": "Changement de couleur de la bande lumineuse frontale"
+  },
+  {
+    "page": "FUNC",
+    "value": 30,
+    "name": "Ctrl + UP"
+  },
+  {
+    "page": "FUNC",
+    "value": 31,
+    "name": "USB模式",
+    "fr": "Mode USB"
+  },
+  {
+    "page": "FUNC",
+    "value": 32,
+    "name": "灯效方向",
+    "fr": "Direction de l'effet lumineux"
+  },
+  {
+    "page": "FUNC",
+    "value": 33,
+    "name": "ALT + ESC"
+  },
+  {
+    "page": "FUNC",
+    "value": 34,
+    "name": "SHIFT + GAT"
+  },
+  {
+    "page": "FUNC",
+    "value": 35,
+    "name": "屏幕左切",
+    "fr": "Glisser à gauche sur l'écran"
+  },
+  {
+    "page": "FUNC",
+    "value": 36,
+    "name": "屏幕右切",
+    "fr": "Glisser à droite sur l'écran"
+  },
+  {
+    "page": "FUNC",
+    "value": 37,
+    "name": "屏幕确认",
+    "fr": "Confirmer écran"
+  },
+  {
+    "page": "FUNC",
+    "value": 38,
+    "name": "测试灯光",
+    "fr": "Tester l'éclairage"
+  },
+  {
+    "page": "FUNC",
+    "value": 39,
+    "name": "关闭屏幕",
+    "fr": "Éteindre l'écran"
+  },
+  {
+    "page": "FUNC",
+    "value": 40,
+    "name": "点阵屏灯效切换",
+    "fr": "Changer effet lumineux de la matrice"
+  },
+  {
+    "page": "FUNC",
+    "value": 41,
+    "name": "点阵屏亮度+",
+    "fr": "Luminosité matrice +"
+  },
+  {
+    "page": "FUNC",
+    "value": 42,
+    "name": "点阵屏亮度-",
+    "fr": "Luminosité matrice -"
+  },
+  {
+    "page": "FUNC",
+    "value": 43,
+    "name": "点阵屏速度-",
+    "fr": "Vitesse matrice -"
+  },
+  {
+    "page": "FUNC",
+    "value": 44,
+    "name": "点阵屏速度+",
+    "fr": "Vitesse matrice +"
+  },
+  {
+    "page": "FUNC",
+    "value": 45,
+    "name": "单键全键无线唤醒开关",
+    "fr": "Réveil sans fil par touche unique / toutes les touches"
+  },
+  {
+    "page": "FUNC",
+    "value": 46,
+    "name": "旋钮模式切换",
+    "fr": "Changement de mode du bouton rotatif"
+  },
+  {
+    "page": "FUNC",
+    "value": 47,
+    "name": "WIN + X"
+  },
+  {
+    "page": "FUNC",
+    "value": 48,
+    "name": "CTRL_CAP调换",
+    "fr": "Échanger CTL/CAP"
+  },
+  {
+    "page": "FUNC",
+    "value": 49,
+    "name": "屏蔽/打开驱动设置",
+    "fr": "Désactiver/Activer les paramètres du pilote"
+  },
+  {
+    "page": "FUNC",
+    "value": 50,
+    "name": "CTRL+下",
+    "fr": "CTRL+Bas"
+  },
+  {
+    "page": "FUNC",
+    "value": 51,
+    "name": "灯光效果正向切换",
+    "fr": "Changement d'effet lumineux vers l'avant"
+  },
+  {
+    "page": "FUNC",
+    "value": 52,
+    "name": "灯光效果反向切换",
+    "fr": "Changement d'effet lumineux vers l'arrière"
+  },
+  {
+    "page": "FUNC",
+    "value": 53,
+    "name": "WIN + D"
+  },
+  {
+    "page": "FUNC",
+    "value": 54,
+    "name": "拾音灯颜色切换",
+    "fr": "Changement de couleur des lumières audio-réactives"
+  },
+  {
+    "page": "FUNC",
+    "value": 55,
+    "name": "拾音灯模式切换",
+    "fr": "Changement de mode des lumières audio-réactives"
+  },
+  {
+    "page": "FUNC",
+    "value": 56,
+    "name": "拾音灯开关",
+    "fr": "Activation/désactivation des lumières audio-réactives"
+  },
+  {
+    "page": "FUNC",
+    "value": 57,
+    "name": "Home"
+  },
+  {
+    "page": "FUNC",
+    "value": 58,
+    "name": "IOS"
+  },
+  {
+    "page": "FUNC",
+    "value": 59,
+    "name": "点阵屏测试模式",
+    "fr": "Mode test de l'affichage matriciel"
+  },
+  {
+    "page": "FUNC",
+    "value": 60,
+    "name": "点阵屏测试颜色",
+    "fr": "Couleur de test de l'affichage matriciel"
+  },
+  {
+    "page": "FUNC",
+    "value": 61,
+    "name": "正面灯条亮度切换",
+    "fr": "Changement de luminosité de la bande lumineuse avant"
+  },
+  {
+    "page": "FUNC",
+    "value": 62,
+    "name": "点阵屏开关",
+    "fr": "Activation/désactivation de l'affichage matriciel"
+  },
+  {
+    "page": "FUNC",
+    "value": 63,
+    "name": "GIF模式",
+    "fr": "Mode GIF"
+  },
+  {
+    "page": "FUNC",
+    "value": 64,
+    "name": "正面灯条速度+",
+    "fr": "Vitesse de la bande LED avant +"
+  },
+  {
+    "page": "FUNC",
+    "value": 65,
+    "name": "正面灯条速度-",
+    "fr": "Vitesse de la bande LED avant -"
+  },
+  {
+    "page": "FUNC",
+    "value": 66,
+    "name": "正面灯条亮度+",
+    "fr": "Luminosité de la bande LED avant +"
+  },
+  {
+    "page": "FUNC",
+    "value": 67,
+    "name": "正面灯条亮度-",
+    "fr": "Luminosité de la bande LED avant -"
+  },
+  {
+    "page": "FUNC",
+    "value": 68,
+    "name": "屏蔽/开启按键宏",
+    "fr": "Bloquer/activer les raccourcis clavier"
+  },
+  {
+    "page": "FUNC",
+    "value": 69,
+    "name": "蓝牙通道4",
+    "fr": "Channel Bluetooth 4"
+  },
+  {
+    "page": "FUNC",
+    "value": 70,
+    "name": "蓝牙通道5",
+    "fr": "Canal Bluetooth 5"
+  },
+  {
+    "page": "FUNC",
+    "value": 71,
+    "name": "自定义灯光1",
+    "fr": "Lumières personnalisées 1"
+  },
+  {
+    "page": "FUNC",
+    "value": 72,
+    "name": "自定义灯光2",
+    "fr": "Lumières personnalisées 2"
+  },
+  {
+    "page": "FUNC",
+    "value": 73,
+    "name": "开启/关闭极致省电",
+    "fr": "Allumez / désactivez l'économie de puissance ultime"
+  },
+  {
+    "page": "FUNC",
+    "value": 74,
+    "name": "侧灯色块颜色",
+    "fr": "Couleur de couleur claire latérale"
+  },
+  {
+    "page": "FUNC",
+    "value": 75,
+    "name": "打开驱动",
+    "fr": "Activer le conducteur"
+  },
+  {
+    "page": "FUNC",
+    "value": 76,
+    "name": "RT精度切换",
+    "fr": "Commutateur de précision RT"
+  },
+  {
+    "page": "FUNC",
+    "value": 77,
+    "name": "灯效上下灯位开关",
+    "fr": "Interrupteur d'éclairage supérieur et inférieur"
+  },
+  {
+    "page": "FUNC",
+    "value": 78,
+    "name": "切换灯效方向",
+    "fr": "Commuter la direction de l'effet d'éclairage"
+  },
+  {
+    "page": "FUNC",
+    "value": 79,
+    "name": "方向键转换",
+    "fr": "Conversion de clé de direction"
+  },
+  {
+    "page": "FUNC",
+    "value": 80,
+    "name": "背光亮度循环切换",
+    "fr": "Commutation du cycle de luminosité du rétroéclairage"
+  },
+  {
+    "page": "FUNC",
+    "value": 81,
+    "name": "背光速度循环切换",
+    "fr": "Commutation du cycle de vitesse de rétroéclairage"
+  },
+  {
+    "page": "FUNC",
+    "value": 82,
+    "name": "切换USB模式",
+    "fr": "Mode USB commutateur"
+  },
+  {
+    "page": "FUNC",
+    "value": 83,
+    "name": "关闭侧灯",
+    "fr": "Éteignez les lumières latérales"
+  },
+  {
+    "page": "FUNC",
+    "value": 84,
+    "name": "显示屏语言切换为汉语",
+    "fr": "Passez la langue d'affichage en chinois"
+  },
+  {
+    "page": "FUNC",
+    "value": 85,
+    "name": "显示屏语言切换为英语",
+    "fr": "Passez la langue d'affichage en anglais"
+  },
+  {
+    "page": "FUNC",
+    "value": 86,
+    "name": "CTRL + SPACEBAR"
+  },
+  {
+    "page": "FUNC",
+    "value": 87,
+    "name": "侧灯RT深度灯效",
+    "fr": "Light Side Rt Deep Light Effet"
+  },
+  {
+    "page": "FUNC",
+    "value": 88,
+    "name": "WIN + SPACEBAR"
+  },
+  {
+    "page": "FUNC",
+    "value": 89,
+    "name": "LOGO LED ON/OFF"
+  },
+  {
+    "page": "FUNC",
+    "value": 90,
+    "name": "切换点阵屏颜色",
+    "fr": "Couleur de l'écran de matrice de points de commutation"
+  },
+  {
+    "page": "FUNC",
+    "value": 91,
+    "name": "灯条叠加模式",
+    "fr": "Mode de superposition de la barre légère"
+  },
+  {
+    "page": "FUNC",
+    "value": 92,
+    "name": "ALT + SPACEBAR"
+  },
+  {
+    "page": "FUNC",
+    "value": 93,
+    "name": "一键白光",
+    "fr": "Lumière blanche en un clic"
+  },
+  {
+    "page": "FUNC",
+    "value": 94,
+    "name": "截屏WIN+SHF+S",
+    "fr": "Capture d'écran de Win Shf S"
+  },
+  {
+    "page": "FUNC",
+    "value": 95,
+    "name": "开启/关闭APM计数",
+    "fr": "Allumer / désactiver le nombre APM"
+  },
+  {
+    "page": "FUNC",
+    "value": 96,
+    "name": "开启/关闭极致省电",
+    "fr": "Allumez / désactivez l'économie de puissance ultime"
+  },
+  {
+    "page": "FUNC",
+    "value": 97,
+    "name": "一键进入动图",
+    "fr": "Entrez l'animation en un seul clic"
+  },
+  {
+    "page": "FUNC",
+    "value": 98,
+    "name": "自定义灯光3",
+    "fr": "Lumières personnalisées 3"
+  },
+  {
+    "page": "FUNC",
+    "value": 99,
+    "name": "自定义灯光录制",
+    "fr": "Enregistrement lumineux personnalisé"
+  },
+  {
+    "page": "FUNC",
+    "value": 100,
+    "name": "LOGO灯切换",
+    "fr": "Interrupteur d'éclairage du logo"
+  },
+  {
+    "page": "FUNC",
+    "value": 101,
+    "name": "8K数据测试",
+    "fr": "Test de données 8K"
+  },
+  {
+    "page": "FUNC",
+    "value": 102,
+    "name": "SOCD功能开关",
+    "fr": "Commutateur de fonction SOCD"
+  },
+  {
+    "page": "FUNC",
+    "value": 103,
+    "name": "灯光效果复位",
+    "fr": "Réinitialisation de l'effet lumineux"
+  },
+  {
+    "page": "FUNC",
+    "value": 104,
+    "name": "主灯效/侧灯效亮度加",
+    "fr": "Effet d'éclairage principal / effet d'éclairage latéral luminosité plus"
+  },
+  {
+    "page": "FUNC",
+    "value": 105,
+    "name": "主灯效/侧灯效亮度减",
+    "fr": "Effet d'éclairage principal / Éclairage latéral Réduction de la luminosité"
+  },
+  {
+    "page": "FUNC",
+    "value": 106,
+    "name": "主灯效/侧灯效速度加",
+    "fr": "Effet d'éclairage principal / Effet d'éclairage latéral Vitesse plus"
+  },
+  {
+    "page": "FUNC",
+    "value": 107,
+    "name": "主灯效/侧灯效速度减",
+    "fr": "Effet d'éclairage principal / Éclairage latéral Réduction de la vitesse"
+  },
+  {
+    "page": "FUNC",
+    "value": 108,
+    "name": "频点测试",
+    "fr": "Test de fréquence"
+  },
+  {
+    "page": "FUNC",
+    "value": 109,
+    "name": "WIN->MAC来回切换",
+    "fr": "Win-> Mac bascule d'avant en arrière"
+  },
+  {
+    "page": "FUNC",
+    "value": 110,
+    "name": "侧灯亮度+",
+    "fr": "Luminosité de la lumière latérale"
+  },
+  {
+    "page": "FUNC",
+    "value": 111,
+    "name": "侧灯亮度-",
+    "fr": "Luminosité de la lumière latérale-"
+  },
+  {
+    "page": "FUNC",
+    "value": 112,
+    "name": "HOME->END"
+  },
+  {
+    "page": "FUNC",
+    "value": 113,
+    "name": "进入测试模式",
+    "fr": "Entrez le mode test"
+  },
+  {
+    "page": "FUNC",
+    "value": 114,
+    "name": "ALT_转换",
+    "fr": "Alt_convert"
+  },
+  {
+    "page": "FUNC",
+    "value": 115,
+    "name": "ENT_方向转换",
+    "fr": "ENT_DIRECTION CONVERSION"
+  },
+  {
+    "page": "FUNC",
+    "value": 116,
+    "name": "WASD切换为方向键",
+    "fr": "Passez aux touches de direction"
+  },
+  {
+    "page": "FUNC",
+    "value": 117,
+    "name": "DELETE->HOME"
+  },
+  {
+    "page": "FUNC",
+    "value": 118,
+    "name": "END->INSERT"
+  },
+  {
+    "page": "FUNC",
+    "value": 119,
+    "name": "PAGEUP->PRINT"
+  },
+  {
+    "page": "FUNC",
+    "value": 120,
+    "name": "PAGEDOWN->PAUSE"
+  },
+  {
+    "page": "FUNC",
+    "value": 121,
+    "name": "游戏模式切换",
+    "fr": "Changement de mode de jeu"
+  },
+  {
+    "page": "FUNC",
+    "value": 122,
+    "name": "灯箱亮度+",
+    "fr": "Luminosité de la boîte à lumière"
+  },
+  {
+    "page": "FUNC",
+    "value": 123,
+    "name": "灯箱亮度-",
+    "fr": "Luminosité de la boîte à lumière-"
+  },
+  {
+    "page": "FUNC",
+    "value": 124,
+    "name": "灯箱速度+",
+    "fr": "Vitesse de la visionneuse"
+  },
+  {
+    "page": "FUNC",
+    "value": 125,
+    "name": "灯箱速度-",
+    "fr": "Vitesse de la lightbox-"
+  },
+  {
+    "page": "FUNC",
+    "value": 126,
+    "name": "LOGO灯效果切换",
+    "fr": "Commutation d'effet de lumière LOGO"
+  },
+  {
+    "page": "FUNC",
+    "value": 127,
+    "name": "灯箱扩散模式颜色切换",
+    "fr": "Changement de couleur du mode de diffusion Lightbox"
+  },
+  {
+    "page": "FUNC",
+    "value": 128,
+    "name": "灯箱效果切换",
+    "fr": "Changement d'effet Lightbox"
+  },
+  {
+    "page": "FUNC",
+    "value": 129,
+    "name": "灯箱颜色切换",
+    "fr": "Changement de couleur de la lightbox"
+  },
+  {
+    "page": "FUNC",
+    "value": 130,
+    "name": "拾音灯亮度加",
+    "fr": "Augmentation de la luminosité de la lumière du capteur"
+  },
+  {
+    "page": "FUNC",
+    "value": 131,
+    "name": "拾音灯亮度减",
+    "fr": "La luminosité de la lumière du capteur est réduite"
+  },
+  {
+    "page": "FUNC",
+    "value": 132,
+    "name": "拾音灯底色切换",
+    "fr": "Changer la couleur de fond de la lumière du capteur"
+  },
+  {
+    "page": "FUNC",
+    "value": 133,
+    "name": "拾音灯方向切换",
+    "fr": "Commutation de la direction de la lumière du capteur"
+  },
+  {
+    "page": "FUNC",
+    "value": 134,
+    "name": "WIN+。"
+  },
+  {
+    "page": "FUNC",
+    "value": 135,
+    "name": "CTRL+WIN+SPACEBAR"
+  },
+  {
+    "page": "FUNC",
+    "value": 136,
+    "name": "WIN+SHIFT+3"
+  },
+  {
+    "page": "FUNC",
+    "value": 137,
+    "name": "WIN+SHIFT+4"
+  },
+  {
+    "page": "FUNC",
+    "value": 138,
+    "name": "开启屏幕下方按键灯",
+    "fr": "Allumez la lumière du bouton sous l’écran"
+  },
+  {
+    "page": "FUNC",
+    "value": 139,
+    "name": "红灯常亮",
+    "fr": "Lumière rouge toujours allumée"
+  },
+  {
+    "page": "FUNC",
+    "value": 140,
+    "name": "绿灯常亮",
+    "fr": "Le feu vert est toujours allumé"
+  },
+  {
+    "page": "FUNC",
+    "value": 141,
+    "name": "蓝灯常亮",
+    "fr": "Lumière bleue toujours allumée"
+  },
+  {
+    "page": "FUNC",
+    "value": 142,
+    "name": "自定义灯光4",
+    "fr": "Éclairage personnalisé 4"
+  },
+  {
+    "page": "FUNC",
+    "value": 143,
+    "name": "自定义灯光5",
+    "fr": "Éclairage personnalisé 5"
+  },
+  {
+    "page": "FUNC",
+    "value": 144,
+    "name": "锁全键",
+    "fr": "verrouiller complètement la clé"
+  },
+  {
+    "page": "FUNC",
+    "value": 145,
+    "name": "WIN+I"
+  },
+  {
+    "page": "FUNC",
+    "value": 146,
+    "name": "WIN+L"
+  },
+  {
+    "page": "FUNC",
+    "value": 147,
+    "name": "侧灯速度+",
+    "fr": "vitesse de la lumière latérale"
+  },
+  {
+    "page": "FUNC",
+    "value": 148,
+    "name": "侧灯速度-",
+    "fr": "Vitesse de la lumière latérale -"
+  },
+  {
+    "page": "FUNC",
+    "value": 149,
+    "name": "侧灯方向调节",
+    "fr": "Réglage de la direction de la lumière latérale"
+  },
+  {
+    "page": "FUNC",
+    "value": 150,
+    "name": "切换回报率",
+    "fr": "Changer de taux de rendement"
+  },
+  {
+    "page": "FUNC",
+    "value": 151,
+    "name": "PAGEUP->INSERT"
+  },
+  {
+    "page": "FUNC",
+    "value": 152,
+    "name": "PAGEDOWN->END"
+  },
+  {
+    "page": "FUNC",
+    "value": 153,
+    "name": "手动进校准",
+    "fr": "Calibrage manuel"
+  },
+  {
+    "page": "FUNC",
+    "value": 154,
+    "name": "12/24时间切换",
+    "fr": "Minuterie 12/24"
+  },
+  {
+    "page": "FUNC",
+    "value": 155,
+    "name": "自定义灯效切换",
+    "fr": "Commutation d'effet d'éclairage personnalisé"
+  },
+  {
+    "page": "FUNC",
+    "value": 156,
+    "name": "windows / MAC 系统切换",
+    "fr": "fenêtres"
+  },
+  {
+    "page": "FUNC",
+    "value": 157,
+    "name": "pageup、pagedown锁",
+    "fr": "page précédente, verrouillage de la page suivante"
+  },
+  {
+    "page": "FUNC",
+    "value": 158,
+    "name": "CMD锁",
+    "fr": "Verrouillage CMD"
+  },
+  {
+    "page": "FUNC",
+    "value": 159,
+    "name": "切换蜂鸣器模式",
+    "fr": "Changer le mode buzzer"
+  },
+  {
+    "page": "FUNC",
+    "value": 160,
+    "name": "开/关拾音灯",
+    "fr": "Allumer/éteindre la lumière du capteur"
+  },
+  {
+    "page": "FUNC",
+    "value": 161,
+    "name": "显示屏切换主页",
+    "fr": "Afficher la page d'accueil du commutateur"
+  },
+  {
+    "page": "FUNC",
+    "value": 162,
+    "name": "氛围灯效亮度调节",
+    "fr": "Réglage de la luminosité de l'effet d'éclairage ambiant"
+  },
+  {
+    "page": "FUNC",
+    "value": 163,
+    "name": "氛围灯效速度调节",
+    "fr": "Réglage de la vitesse de l'effet d'éclairage ambiant"
+  },
+  {
+    "page": "FUNC",
+    "value": 164,
+    "name": "氛围灯效颜色切换",
+    "fr": "Changement de couleur de l'effet d'éclairage ambiant"
+  },
+  {
+    "page": "FUNC",
+    "value": 165,
+    "name": "氛围灯效切换",
+    "fr": "Commutation de l'effet d'éclairage ambiant"
+  },
+  {
+    "page": "FUNC",
+    "value": 166,
+    "name": "灯光颜色正向切换",
+    "fr": "Commutation avant de la couleur de la lumière"
+  },
+  {
+    "page": "FUNC",
+    "value": 167,
+    "name": "灯光颜色反向切换",
+    "fr": "Commutation inversée de la couleur de la lumière"
+  },
+  {
+    "page": "FUNC",
+    "value": 168,
+    "name": "旋钮下的LED开关",
+    "fr": "Interrupteur LED sous le bouton"
+  },
+  {
+    "page": "FUNC",
+    "value": 169,
+    "name": "有线模式切换",
+    "fr": "Commutation de mode filaire"
+  },
+  {
+    "page": "FUNC",
+    "value": 170,
+    "name": "切换指示灯模式",
+    "fr": "Changer le mode du voyant lumineux"
+  },
+  {
+    "page": "FUNC",
+    "value": 171,
+    "name": "切换数字键区和Fn键区",
+    "fr": "Basculer entre le pavé numérique et le clavier Fn"
+  },
+  {
+    "page": "FUNC",
+    "value": 172,
+    "name": "GAT"
+  },
+  {
+    "page": "FUNC",
+    "value": 173,
+    "name": "编码器灯光",
+    "fr": "Lumière de l'encodeur"
+  },
+  {
+    "page": "FUNC",
+    "value": 174,
+    "name": "8K回报率测试",
+    "fr": "Test de taux de retour 8K"
+  },
+  {
+    "page": "FUNC",
+    "value": 175,
+    "name": "屏幕下方灯",
+    "fr": "lumière sous l'écran"
+  },
+  {
+    "page": "FUNC",
+    "value": 176,
+    "name": "侧灯开关",
+    "fr": "interrupteur d'éclairage latéral"
+  },
+  {
+    "page": "FUNC",
+    "value": 177,
+    "name": "SHIFT_S问号",
+    "fr": "SHIFT_Point d'interrogation"
+  },
+  {
+    "page": "FUNC",
+    "value": 178,
+    "name": "AI音量加",
+    "fr": "Volume IA plus"
+  },
+  {
+    "page": "FUNC",
+    "value": 179,
+    "name": "AI音量减",
+    "fr": "Réduction du volume de l'IA"
+  },
+  {
+    "page": "FUNC",
+    "value": 180,
+    "name": "AI屏幕亮度加",
+    "fr": "Luminosité de l'écran AI plus"
+  },
+  {
+    "page": "FUNC",
+    "value": 181,
+    "name": "AI屏幕亮度减",
+    "fr": "Réduction de la luminosité de l'écran AI"
+  },
+  {
+    "page": "FUNC",
+    "value": 182,
+    "name": "恢复出厂设置（FN+R_ALT+ESC）",
+    "fr": "Restaurer les paramètres d'usine (FN R_ALT ESC)"
+  },
+  {
+    "page": "FUNC",
+    "value": 183,
+    "name": "DKS开关",
+    "fr": "Commutateur DKS"
+  },
+  {
+    "page": "FUNC",
+    "value": 184,
+    "name": "呼出SIRI",
+    "fr": "SIRI sortant"
+  },
+  {
+    "page": "FUNC",
+    "value": 185,
+    "name": "LOGO灯开关",
+    "fr": "Interrupteur d'éclairage avec logo"
+  },
+  {
+    "page": "FUNC",
+    "value": 186,
+    "name": "爱心灯光模式",
+    "fr": "Mode lumière d'amour"
+  },
+  {
+    "page": "FUNC",
+    "value": 187,
+    "name": "6键/全键无冲",
+    "fr": "6 clés/toutes les clés sans retournement"
+  },
+  {
+    "page": "FUNC",
+    "value": 188,
+    "name": "LOGO灯颜色切换",
+    "fr": "Changement de couleur de lumière du LOGO"
+  },
+  {
+    "page": "FUNC",
+    "value": 189,
+    "name": "切换爱心模式下的灯光灯效",
+    "fr": "Changez l'effet d'éclairage en mode amour"
+  },
+  {
+    "page": "FUNC",
+    "value": 190,
+    "name": "切换到计算器模式",
+    "fr": "Passer en mode calculatrice"
+  },
+  {
+    "page": "FUNC",
+    "value": 191,
+    "name": "打开/关闭灯箱",
+    "fr": "Allumer/éteindre la lightbox"
+  },
+  {
+    "page": "FUNC",
+    "value": 192,
+    "name": "显示屏切换用户动画",
+    "fr": "Afficher l'animation de changement d'utilisateur"
+  },
+  {
+    "page": "FUNC",
+    "value": 193,
+    "name": "灯效方向左",
+    "fr": "Direction de l'effet d'éclairage à gauche"
+  },
+  {
+    "page": "FUNC",
+    "value": 194,
+    "name": "灯效方向右",
+    "fr": "Direction de l'effet de lumière à droite"
+  },
+  {
+    "page": "FUNC",
+    "value": 195,
+    "name": "切换成APP键",
+    "fr": "Passer à la clé APP"
+  },
+  {
+    "page": "FUNC",
+    "value": 196,
+    "name": "灯光效果切换1",
+    "fr": "Interrupteur d'effet d'éclairage 1"
+  },
+  {
+    "page": "FUNC",
+    "value": 197,
+    "name": "灯光效果切换2",
+    "fr": "Interrupteur d'effet d'éclairage 2"
+  },
+  {
+    "page": "FUNC",
+    "value": 198,
+    "name": "灯光效果切换3",
+    "fr": "Commutation d'effet d'éclairage 3"
+  },
+  {
+    "page": "FUNC",
+    "value": 199,
+    "name": "灯光效果切换4",
+    "fr": "Commutation d'effet d'éclairage 4"
+  },
+  {
+    "page": "FUNC",
+    "value": 200,
+    "name": "profile1切换",
+    "fr": "commutateur profil1"
+  },
+  {
+    "page": "FUNC",
+    "value": 201,
+    "name": "profile2切换",
+    "fr": "commutateur profil2"
+  },
+  {
+    "page": "FUNC",
+    "value": 202,
+    "name": "profile3切换",
+    "fr": "commutateur profil3"
+  },
+  {
+    "page": "FUNC",
+    "value": 203,
+    "name": "profile4切换",
+    "fr": "commutateur profil4"
+  },
+  {
+    "page": "FUNC",
+    "value": 204,
+    "name": "打字显示",
+    "fr": "Affichage de saisie"
+  },
+  {
+    "page": "FUNC",
+    "value": 205,
+    "name": "退出测试模式",
+    "fr": "Quitter le mode test"
+  },
+  {
+    "page": "FUNC",
+    "value": 206,
+    "name": "LEFTALT+LEFTGUI+Q"
+  },
+  {
+    "page": "FUNC",
+    "value": 207,
+    "name": "LOGO灯亮度切换",
+    "fr": "Interrupteur de luminosité de la lumière LOGO"
+  },
+  {
+    "page": "FUNC",
+    "value": 208,
+    "name": "LOGO灯速度切换",
+    "fr": "Commutation de vitesse de lumière LOGO"
+  },
+  {
+    "page": "FUNC",
+    "value": 209,
+    "name": "自定义宏1",
+    "fr": "Commande de raccourci personnalisé 1"
+  },
+  {
+    "page": "FUNC",
+    "value": 210,
+    "name": "CTRL+SHIFT+O"
+  },
+  {
+    "page": "FUNC",
+    "value": 211,
+    "name": "一键进驱动",
+    "fr": "Entrée du pilote en un clic"
+  },
+  {
+    "page": "FUNC",
+    "value": 212,
+    "name": "打开自定义宏录制",
+    "fr": "Activer l'enregistrement de raccourci personnalisé"
+  },
+  {
+    "page": "FUNC",
+    "value": 213,
+    "name": "关闭自定义宏录制",
+    "fr": "Désactiver l'enregistrement des raccourcis personnalisés"
+  },
+  {
+    "page": "FUNC",
+    "value": 214,
+    "name": "打开官网",
+    "fr": "Ouvrez le site officiel"
+  },
+  {
+    "page": "FUNC",
+    "value": 215,
+    "name": "切换爱心灯效的颜色",
+    "fr": "Changez la couleur de l'effet de lumière d'amour"
+  },
+  {
+    "page": "FUNC",
+    "value": 216,
+    "name": "CTRL+DOWN"
+  },
+  {
+    "page": "FUNC",
+    "value": 217,
+    "name": "1~+转换为F1~F12",
+    "fr": "1~ converti en F1~F12"
+  },
+  {
+    "page": "FUNC",
+    "value": 218,
+    "name": "Y~CMA转换为PRINT~PAGEDOWN",
+    "fr": "Convertir Y~CMA en PRINT~PAGEDOWN"
+  },
+  {
+    "page": "FUNC",
+    "value": 219,
+    "name": "?、R_ALT、APP、R_CTRL切换为方向键",
+    "fr": "?, R_ALT, APP, R_CTRL passent aux touches de direction"
+  },
+  {
+    "page": "FUNC",
+    "value": 220,
+    "name": "灯光速度调节",
+    "fr": "Réglage de la vitesse de la lumière"
+  },
+  {
+    "page": "FUNC",
+    "value": 221,
+    "name": "偏频测试模式",
+    "fr": "Mode test de fréquence de décalage"
+  },
+  {
+    "page": "FUNC",
+    "value": 222,
+    "name": "FN+HOME"
+  },
+  {
+    "page": "FUNC",
+    "value": 223,
+    "name": "USB灯效果切换",
+    "fr": "Commutation d'effet de lumière USB"
+  },
+  {
+    "page": "FUNC",
+    "value": 224,
+    "name": "USB灯速度切换",
+    "fr": "Commutation de vitesse de lumière USB"
+  },
+  {
+    "page": "FUNC",
+    "value": 225,
+    "name": "USB灯亮度切换",
+    "fr": "Commutation de la luminosité de la lumière USB"
+  },
+  {
+    "page": "FUNC",
+    "value": 226,
+    "name": "USB灯颜色切换",
+    "fr": "Changement de couleur de la lumière USB"
+  },
+  {
+    "page": "FUNC",
+    "value": 227,
+    "name": "切换按键延时",
+    "fr": "Retard du bouton de commutation"
+  },
+  {
+    "page": "FUNC",
+    "value": 228,
+    "name": "点阵屏字符模式",
+    "fr": "Mode caractère matriciel"
+  },
+  {
+    "page": "FUNC",
+    "value": 229,
+    "name": "打开触摸模式",
+    "fr": "Activer le mode tactile"
+  },
+  {
+    "page": "FUNC",
+    "value": 230,
+    "name": "满电检测",
+    "fr": "Détection de batterie pleine"
+  },
+  {
+    "page": "FUNC",
+    "value": 231,
+    "name": "充电指示灯开关",
+    "fr": "Interrupteur indicateur de charge"
+  },
+  {
+    "page": "FUNC",
+    "value": 232,
+    "name": "切换最大亮度",
+    "fr": "Basculer la luminosité maximale"
+  },
+  {
+    "page": "FUNC",
+    "value": 233,
+    "name": "CTRL+P"
+  },
+  {
+    "page": "FUNC",
+    "value": 234,
+    "name": "CTRL+C"
+  },
+  {
+    "page": "FUNC",
+    "value": 235,
+    "name": "CTRL+V"
+  },
+  {
+    "page": "FUNC",
+    "value": 236,
+    "name": "CTRL+S"
+  },
+  {
+    "page": "FUNC",
+    "value": 237,
+    "name": "切换RT配置1",
+    "fr": "Configuration du commutateur RT 1"
+  },
+  {
+    "page": "FUNC",
+    "value": 238,
+    "name": "切换RT配置2",
+    "fr": "Configuration du commutateur RT 2"
+  },
+  {
+    "page": "FUNC",
+    "value": 239,
+    "name": "切换RT配置3",
+    "fr": "Configuration du commutateur RT 3"
+  },
+  {
+    "page": "FUNC",
+    "value": 240,
+    "name": "切换RT配置4",
+    "fr": "Configuration du commutateur RT 4"
+  },
+  {
+    "page": "FUNC",
+    "value": 241,
+    "name": "上下灯位切换",
+    "fr": "Changer les positions de la lumière vers le haut et vers le bas"
+  },
+  {
+    "page": "FUNC",
+    "value": 242,
+    "name": "win+M"
+  },
+  {
+    "page": "FUNC",
+    "value": 243,
+    "name": "F1~F12模式切换",
+    "fr": "Commutation de mode F1 ~ F12"
+  },
+  {
+    "page": "FUNC",
+    "value": 244,
+    "name": "SHIFT+DOT"
+  },
+  {
+    "page": "FUNC",
+    "value": 245,
+    "name": "SHIFT+CMA"
+  },
+  {
+    "page": "FUNC",
+    "value": 246,
+    "name": "推杆_音量",
+    "fr": "Fader_Volume"
+  },
+  {
+    "page": "FUNC",
+    "value": 247,
+    "name": "推杆_背光亮度",
+    "fr": "Luminosité du rétroéclairage de la tige de poussée"
+  },
+  {
+    "page": "FUNC",
+    "value": 248,
+    "name": "推杆_屏幕亮度",
+    "fr": "Luminosité de l'écran Fader_screen"
+  },
+  {
+    "page": "FUNC",
+    "value": 249,
+    "name": "动态灯效开关",
+    "fr": "Interrupteur à effet de lumière dynamique"
+  },
+  {
+    "page": "FUNC",
+    "value": 250,
+    "name": "上灯箱开启关闭",
+    "fr": "Allumer et éteindre la boîte à lumière supérieure"
+  },
+  {
+    "page": "FUNC",
+    "value": 251,
+    "name": "左右侧灯切换",
+    "fr": "Commutation des feux latéraux gauche et droit"
+  },
+  {
+    "page": "FUNC",
+    "value": 252,
+    "name": "左右侧灯开启关闭",
+    "fr": "Allumer et éteindre les feux latéraux gauche et droit"
+  },
+  {
+    "page": "FUNC",
+    "value": 253,
+    "name": "关闭所有灯光",
+    "fr": "Éteignez toutes les lumières"
+  },
+  {
+    "page": "FUNC",
+    "value": 254,
+    "name": "切换自定义灯光",
+    "fr": "Changer les lumières personnalisées"
+  },
+  {
+    "page": "FUNC",
+    "value": 255,
+    "name": "6键无冲",
+    "fr": "6 clés sans retournement"
+  },
+  {
+    "page": "FUNC",
+    "value": 256,
+    "name": "全键无冲",
+    "fr": "Pas de roulement pour toutes les clés"
+  },
+  {
+    "page": "FUNC",
+    "value": 257,
+    "name": "正面上灯条灯效切换",
+    "fr": "Effet lumineux enclenché sur la barre lumineuse avant"
+  },
+  {
+    "page": "FUNC",
+    "value": 258,
+    "name": "正面上灯条亮度切换",
+    "fr": "Interrupteur de luminosité de la barre lumineuse à l'avant"
+  },
+  {
+    "page": "FUNC",
+    "value": 259,
+    "name": "正面下灯条灯效切换",
+    "fr": "Commutation d'effet de lumière de barre lumineuse inférieure avant"
+  },
+  {
+    "page": "FUNC",
+    "value": 260,
+    "name": "正面下灯条亮度切换",
+    "fr": "Interrupteur de luminosité de la barre lumineuse inférieure avant"
+  },
+  {
+    "page": "FUNC",
+    "value": 261,
+    "name": "切换土耳其语",
+    "fr": "Passer au turc"
+  },
+  {
+    "page": "FUNC",
+    "value": 262,
+    "name": "切换日语",
+    "fr": "Changer de japonais"
+  },
+  {
+    "page": "FUNC",
+    "value": 263,
+    "name": "侧灯亮度加",
+    "fr": "Luminosité de la lumière latérale plus"
+  },
+  {
+    "page": "FUNC",
+    "value": 264,
+    "name": "侧灯亮度减",
+    "fr": "La luminosité de la lumière latérale diminue"
+  },
+  {
+    "page": "FUNC",
+    "value": 265,
+    "name": "CTRL+X"
+  },
+  {
+    "page": "FUNC",
+    "value": 266,
+    "name": "WIN+C"
+  },
+  {
+    "page": "FUNC",
+    "value": 267,
+    "name": "WIN+V"
+  },
+  {
+    "page": "FUNC",
+    "value": 268,
+    "name": "点阵屏图案模式切换",
+    "fr": "Changement de mode de motif d'écran matriciel"
+  },
+  {
+    "page": "FUNC",
+    "value": 269,
+    "name": "任务管理器",
+    "fr": "gestionnaire de tâches"
+  },
+  {
+    "page": "FUNC",
+    "value": 270,
+    "name": "Scroll锁定",
+    "fr": "ScrollLock"
+  },
+  {
+    "page": "FUNC",
+    "value": 271,
+    "name": "屏幕主页模式",
+    "fr": "Mode écran d'accueil"
+  },
+  {
+    "page": "FUNC",
+    "value": 272,
+    "name": "WIN+S"
+  },
+  {
+    "page": "FUNC",
+    "value": 273,
+    "name": "锁定F1-F12与组合键切换",
+    "fr": "Verrouiller le basculement F1-F12 et touches combinées"
+  },
+  {
+    "page": "FUNC",
+    "value": 274,
+    "name": "LOGO灯亮度加",
+    "fr": "Augmenter la luminosité du logo"
+  },
+  {
+    "page": "FUNC",
+    "value": 275,
+    "name": "LOGO灯亮度减",
+    "fr": "Diminuer la luminosité du logo"
+  },
+  {
+    "page": "FUNC",
+    "value": 276,
+    "name": "有线/无线模式切换",
+    "fr": "Basculer mode filaire/sans fil"
+  },
+  {
+    "page": "FUNC",
+    "value": 277,
+    "name": "Numlock指示灯开关",
+    "fr": "Interrupteur du voyant NumLock"
+  },
+  {
+    "page": "FUNC",
+    "value": 278,
+    "name": "触摸条调节屏幕亮度模式",
+    "fr": "Mode tactile de luminosité d'écran"
+  },
+  {
+    "page": "FUNC",
+    "value": 279,
+    "name": "触摸条调节音量模式",
+    "fr": "Mode tactile de volume"
+  },
+  {
+    "page": "FUNC",
+    "value": 280,
+    "name": "触摸条调节背光亮度模式",
+    "fr": "Mode tactile de luminosité du rétroéclairage"
+  },
+  {
+    "page": "FUNC",
+    "value": 281,
+    "name": "触摸条调节背光速度模式",
+    "fr": "Mode tactile de vitesse du rétroéclairage"
+  },
+  {
+    "page": "FUNC",
+    "value": 282,
+    "name": "进出按键低延时模式",
+    "fr": "Entrer/quitter le mode faible latence des touches"
+  },
+  {
+    "page": "FUNC",
+    "value": 283,
+    "name": "进入低功耗模式",
+    "fr": "Entrer en mode faible consommation"
+  },
+  {
+    "page": "FUNC",
+    "value": 284,
+    "name": "屏幕动图轮询切换",
+    "fr": "Défilement des GIF de l'écran"
+  },
+  {
+    "page": "FUNC",
+    "value": 285,
+    "name": "切换休眠时间",
+    "fr": "Changer le temps de veille"
+  },
+  {
+    "page": "FUNC",
+    "value": 286,
+    "name": "多窗口切换",
+    "fr": "Changement de fenêtre"
+  },
+  {
+    "page": "FUNC",
+    "value": 287,
+    "name": "一键进配对",
+    "fr": "Couplage en un clic"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 4096,
+    "name": "恢复出厂设置",
+    "keyType": 2,
+    "fr": "Restaurer les paramètres d'usine"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 4097,
+    "name": "切换至Windows系统",
+    "keyType": 2,
+    "fr": "Passer au système Windows"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 4098,
+    "name": "切换至MAC系统",
+    "keyType": 2,
+    "fr": "Passer au système MAC"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 4099,
+    "name": "切换至Android系统",
+    "keyType": 2,
+    "fr": "Passer au système Android"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 8192,
+    "name": "蓝牙通道1",
+    "keyType": 1,
+    "fr": "Canal Bluetooth 1"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 8193,
+    "name": "蓝牙通道2",
+    "keyType": 1,
+    "fr": "Canal Bluetooth 2"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 8194,
+    "name": "蓝牙通道3",
+    "keyType": 1,
+    "fr": "Canal Bluetooth 3"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 8195,
+    "name": "蓝牙通道4",
+    "keyType": 1,
+    "fr": "Channel Bluetooth 4"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 8196,
+    "name": "蓝牙通道5",
+    "keyType": 1,
+    "fr": "Canal Bluetooth 5"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 8197,
+    "name": "蓝牙通道1进入配对",
+    "keyType": 2,
+    "fr": "Le canal Bluetooth 1 entre dans le couplage"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 8198,
+    "name": "蓝牙通道2进入配对",
+    "keyType": 2,
+    "fr": "Le canal Bluetooth 2 entre dans le couplage"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 8199,
+    "name": "蓝牙通道3进入配对",
+    "keyType": 2,
+    "fr": "Le canal Bluetooth 3 entre dans le couplage"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 8200,
+    "name": "蓝牙通道4进入配对",
+    "keyType": 2,
+    "fr": "Le canal Bluetooth 4 entre dans le couplage"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 8201,
+    "name": "蓝牙通道5进入配对",
+    "keyType": 2,
+    "fr": "Le canal Bluetooth 5 entre dans le couplage"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 8202,
+    "name": "无线回连",
+    "keyType": 1,
+    "fr": "Reconnexion sans fil"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 8203,
+    "name": "无线配对",
+    "keyType": 2,
+    "fr": "Couplage sans fil"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 8204,
+    "name": "切回USB模式",
+    "keyType": 1,
+    "fr": "Revenir en mode USB"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12288,
+    "name": "主灯光效果切换",
+    "keyType": 1,
+    "fr": "Commutation de l'effet d'éclairage principal"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12289,
+    "name": "主灯光颜色切换",
+    "keyType": 1,
+    "fr": "Changement de couleur de la lumière principale"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12290,
+    "name": "主灯光亮度+",
+    "keyType": 1,
+    "fr": "Luminosité de la lumière principale"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12291,
+    "name": "主灯光亮度-",
+    "keyType": 1,
+    "fr": "Luminosité de la lumière principale-"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12292,
+    "name": "主灯光速度+",
+    "keyType": 1,
+    "fr": "vitesse principale de la lumière"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12293,
+    "name": "主灯光速度-",
+    "keyType": 1,
+    "fr": "Vitesse de la lumière principale-"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12294,
+    "name": "关闭主灯光",
+    "keyType": 1,
+    "fr": "Éteignez la lumière principale"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12295,
+    "name": "打开主灯光",
+    "keyType": 1,
+    "fr": "Allumez la lumière principale"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12296,
+    "name": "侧灯效果切换",
+    "keyType": 1,
+    "fr": "Changement d'effet des lumières latérales"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12297,
+    "name": "侧灯颜色切换",
+    "keyType": 1,
+    "fr": "Changement de couleur des lumières latérales"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12298,
+    "name": "侧灯亮度调节+",
+    "keyType": 1,
+    "fr": "Réglage de la luminosité des feux latéraux"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12299,
+    "name": "侧灯亮度调节-",
+    "keyType": 1,
+    "fr": "Réglage de la luminosité de la lumière latérale-"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12300,
+    "name": "侧灯速度调节+",
+    "keyType": 1,
+    "fr": "Réglage de la vitesse de l'éclairage latéral"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12301,
+    "name": "侧灯速度调节-",
+    "keyType": 1,
+    "fr": "Réglage de la vitesse de la lumière latérale-"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12302,
+    "name": "关闭侧灯",
+    "keyType": 1,
+    "fr": "Éteignez les feux de position"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12303,
+    "name": "打开侧灯",
+    "keyType": 1,
+    "fr": "allumer les feux de position"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12304,
+    "name": "主灯区方向切换",
+    "keyType": 1,
+    "fr": "Commutation de direction de la zone lumineuse principale"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12305,
+    "name": "主灯开关切换",
+    "keyType": 1,
+    "fr": "Interrupteur d'éclairage principal"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12306,
+    "name": "氛围灯模式切换",
+    "keyType": 1,
+    "fr": "Commutation du mode de lumière ambiante"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12307,
+    "name": "氛围灯颜色切换",
+    "keyType": 1,
+    "fr": "Changement de couleur de la lumière ambiante"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12308,
+    "name": "氛围灯亮度切换（+）",
+    "keyType": 1,
+    "fr": "Commutation de la luminosité de la lumière ambiante ( )"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12309,
+    "name": "氛围灯速度切换（+）",
+    "keyType": 1,
+    "fr": "Commutation de la vitesse de la lumière ambiante ( )"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12310,
+    "name": "侧灯色块颜色切换",
+    "keyType": 1,
+    "fr": "Changement de couleur du bloc de couleur de la lumière latérale"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 12311,
+    "name": "全灯开/关切换",
+    "keyType": 1,
+    "fr": "Allumage/extinction de la pleine lumière"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 16384,
+    "name": "切换上一个界面",
+    "keyType": 1,
+    "fr": "Passer à l'interface précédente"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 16385,
+    "name": "切换下一个界面",
+    "keyType": 1,
+    "fr": "Passer à l'interface suivante"
+  },
+  {
+    "page": "FUNC_V2",
+    "value": 16386,
+    "name": "确认键按下",
+    "keyType": 1,
+    "fr": "Confirmer la touche enfoncée"
+  }
+]

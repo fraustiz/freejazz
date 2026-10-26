@@ -1,0 +1,277 @@
+[
+  {
+    "mode": 1,
+    "name": "静态恒亮",
+    "fr": "Statique constant",
+    "hasColor": true,
+    "colorModes": [
+      0,
+      1
+    ],
+    "hasSpeed": false,
+    "hasDirection": false
+  },
+  {
+    "mode": 2,
+    "name": "单点亮",
+    "fr": "Point lumineux unique",
+    "hasColor": true,
+    "colorModes": [
+      0,
+      1
+    ],
+    "hasSpeed": true,
+    "defaultSpeed": 3,
+    "hasDirection": false
+  },
+  {
+    "mode": 3,
+    "name": "单熄灭",
+    "fr": "Extinction unique",
+    "hasColor": true,
+    "colorModes": [
+      0,
+      1
+    ],
+    "hasSpeed": true,
+    "defaultSpeed": 3,
+    "hasDirection": false
+  },
+  {
+    "mode": 4,
+    "name": "繁星点点",
+    "fr": "Étoiles scintillantes",
+    "hasColor": true,
+    "colorModes": [
+      0,
+      1
+    ],
+    "hasSpeed": true,
+    "defaultSpeed": 3,
+    "hasDirection": false
+  },
+  {
+    "mode": 5,
+    "name": "漫天飞雪",
+    "fr": "Neige tombante",
+    "hasColor": true,
+    "colorModes": [
+      0,
+      1
+    ],
+    "hasSpeed": true,
+    "defaultSpeed": 3,
+    "hasDirection": false
+  },
+  {
+    "mode": 6,
+    "name": "百花争艳",
+    "fr": "Fleurs en floraison",
+    "hasColor": false,
+    "colorModes": [],
+    "hasSpeed": true,
+    "defaultSpeed": 3,
+    "hasDirection": false
+  },
+  {
+    "mode": 7,
+    "name": "动态呼吸",
+    "fr": "Respiration dynamique",
+    "hasColor": true,
+    "colorModes": [
+      0,
+      1
+    ],
+    "hasSpeed": true,
+    "defaultSpeed": 3,
+    "hasDirection": false
+  },
+  {
+    "mode": 8,
+    "name": "光谱循环",
+    "fr": "Cycle spectral",
+    "hasColor": false,
+    "colorModes": [],
+    "hasSpeed": true,
+    "defaultSpeed": 3,
+    "hasDirection": false
+  },
+  {
+    "mode": 9,
+    "name": "彩泉涌动",
+    "fr": "Fontaine colorée",
+    "hasColor": true,
+    "colorModes": [
+      0,
+      1
+    ],
+    "hasSpeed": true,
+    "defaultSpeed": 3,
+    "hasDirection": false
+  },
+  {
+    "mode": 10,
+    "name": "多彩纵横",
+    "fr": "Multicolore",
+    "hasColor": true,
+    "colorModes": [
+      0,
+      1
+    ],
+    "hasSpeed": true,
+    "defaultSpeed": 3,
+    "hasDirection": true,
+    "directions": [
+      2,
+      3
+    ],
+    "defaultDirection": 3
+  },
+  {
+    "mode": 11,
+    "name": "随波逐流",
+    "fr": "Suivre le courant",
+    "hasColor": true,
+    "colorModes": [
+      0,
+      1
+    ],
+    "hasSpeed": true,
+    "defaultSpeed": 3,
+    "hasDirection": true,
+    "directions": [
+      1,
+      0
+    ],
+    "defaultDirection": 0
+  },
+  {
+    "mode": 12,
+    "name": "峰回路转",
+    "fr": "Virages sinueux",
+    "hasColor": true,
+    "colorModes": [
+      0,
+      1
+    ],
+    "hasSpeed": true,
+    "defaultSpeed": 3,
+    "hasDirection": true,
+    "directions": [
+      1,
+      0
+    ],
+    "defaultDirection": 0
+  },
+  {
+    "mode": 13,
+    "name": "一触即发",
+    "fr": "Prêt à déclencher",
+    "hasColor": true,
+    "colorModes": [
+      0,
+      1
+    ],
+    "hasSpeed": true,
+    "defaultSpeed": 3,
+    "hasDirection": false
+  },
+  {
+    "mode": 14,
+    "name": "一石二鸟",
+    "fr": "Un coup, deux oiseaux",
+    "hasColor": true,
+    "colorModes": [
+      0,
+      1
+    ],
+    "hasSpeed": true,
+    "defaultSpeed": 3,
+    "hasDirection": false
+  },
+  {
+    "mode": 15,
+    "name": "涟漪扩散",
+    "fr": "Ondes de diffusion",
+    "hasColor": true,
+    "colorModes": [
+      0,
+      1
+    ],
+    "hasSpeed": true,
+    "defaultSpeed": 3,
+    "hasDirection": false
+  },
+  {
+    "mode": 16,
+    "name": "川流不息",
+    "fr": "Flux continu",
+    "hasColor": true,
+    "colorModes": [
+      0,
+      1
+    ],
+    "hasSpeed": true,
+    "defaultSpeed": 3,
+    "hasDirection": true,
+    "directions": [
+      1,
+      0
+    ],
+    "defaultDirection": 0
+  },
+  {
+    "mode": 17,
+    "name": "重峦叠嶂",
+    "fr": "Montagnes superposées",
+    "hasColor": true,
+    "colorModes": [
+      0,
+      1
+    ],
+    "hasSpeed": true,
+    "defaultSpeed": 3,
+    "hasDirection": false
+  },
+  {
+    "mode": 18,
+    "name": "斜风细雨",
+    "fr": "Vent léger et pluie",
+    "hasColor": true,
+    "colorModes": [
+      0,
+      1
+    ],
+    "hasSpeed": true,
+    "defaultSpeed": 3,
+    "hasDirection": true,
+    "directions": [
+      1,
+      0
+    ],
+    "defaultDirection": 0
+  },
+  {
+    "mode": 19,
+    "name": "来回穿梭",
+    "fr": "Aller-retour",
+    "hasColor": true,
+    "colorModes": [
+      0,
+      1
+    ],
+    "hasSpeed": true,
+    "defaultSpeed": 3,
+    "hasDirection": false
+  },
+  {
+    "mode": 128,
+    "name": "自定义",
+    "fr": "Personnalisé",
+    "hasColor": true,
+    "colorModes": [],
+    "hasSpeed": false,
+    "hasDirection": false,
+    "custom": true
+  }
+]

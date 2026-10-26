@@ -1,0 +1,7 @@
+.superpowers/
+target/
+node_modules/
+dist/
+*.log
+/backups/
+docs/superpowers/

@@ -1,0 +1,111 @@
+{
+  "vendorId": 3141,
+  "productId": 32835,
+  "supplierName": "ajazz",
+  "name": "AK980 MAX",
+  "connectType": "USB",
+  "routesName": [
+    "customKeys",
+    "lighting",
+    "macro",
+    "performance",
+    "advancedKeys",
+    "settings"
+  ],
+  "keyboardImg": "AK980_MAX.png",
+  "musicConfig": {
+    "version": 2,
+    "maxColOffset": 0,
+    "keyOffset": [
+      {
+        "name": "F1",
+        "value": 1,
+        "offsetX": 1
+      },
+      {
+        "name": "Z",
+        "value": 65,
+        "offsetX": 1
+      },
+      {
+        "name": "Num 1",
+        "value": 77,
+        "offsetX": 1
+      },
+      {
+        "name": "Spacebar",
+        "value": 83,
+        "offsetX": 3
+      },
+      {
+        "name": "R-Ctrl",
+        "value": 87,
+        "offsetX": 3
+      },
+      {
+        "name": "Num .",
+        "value": 94,
+        "offsetX": 1
+      }
+    ]
+  },
+  "performanceConfig": {
+    "triggerTripValue": 1.2,
+    "maxTriggerTrip": 3.3,
+    "minTriggerTrip": 0.1,
+    "triggerTripStep": 0.01,
+    "isSwitchAxis": true,
+    "defaultAxisValue": 1,
+    "axisList": [
+      {
+        "name": "axis_9",
+        "value": 1,
+        "minSensitivity": 0.01,
+        "maxSensitivity": 3.3,
+        "sensitivityValue": 0.1,
+        "fr": "Switch magnétique riz"
+      },
+      {
+        "name": "jade",
+        "value": 2,
+        "minSensitivity": 0.01,
+        "maxSensitivity": 3.3,
+        "sensitivityValue": 0.1,
+        "fr": "Axe Jade Pro"
+      },
+      {
+        "name": "king",
+        "value": 3,
+        "minSensitivity": 0.01,
+        "maxSensitivity": 3.3,
+        "sensitivityValue": 0.1,
+        "fr": "Axe Magicien"
+      }
+    ],
+    "isShowRampageMode": false,
+    "modeList": "default",
+    "isShowDeadZone": true
+  },
+  "advancedKeysConfig": {
+    "advancedKeysList": [
+      "RS",
+      "SOCD",
+      "DKS",
+      "MT",
+      "TGL"
+    ]
+  },
+  "settingsConfig": {
+    "isShowTftTimeMode": false,
+    "isShowKeyDelay": false,
+    "isShowSingleKeyWakeup": false,
+    "isShowStabilityMode": true,
+    "isShowAutoCalibration": true,
+    "isShowReportRate": true,
+    "reportRateList": [
+      1000,
+      4000,
+      8000
+    ]
+  }
+}

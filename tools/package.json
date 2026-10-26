@@ -1,0 +1,12 @@
+{
+  "name": "freejazz-tools",
+  "private": true,
+  "type": "module",
+  "description": "Extracts factual keyboard data (layout, key tables, effects) from a downloaded copy of the Ajazz web driver.",
+  "scripts": {
+    "extract": "node extract-site-data.mjs"
+  },
+  "dependencies": {
+    "acorn": "8.14.0"
+  }
+}
