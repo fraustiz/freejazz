@@ -31,6 +31,18 @@ pub fn hex(c: Rgb) -> String {
     format!("#{:02x}{:02x}{:02x}", c.r, c.g, c.b)
 }
 
+pub const PRESETS: &[(&str, Rgb)] = &[
+    ("Rouge", Rgb { r: 255, g: 0, b: 0 }),
+    ("Orange", Rgb { r: 255, g: 128, b: 0 }),
+    ("Jaune", Rgb { r: 255, g: 255, b: 0 }),
+    ("Vert", Rgb { r: 0, g: 255, b: 0 }),
+    ("Cyan", Rgb { r: 0, g: 255, b: 255 }),
+    ("Bleu", Rgb { r: 0, g: 128, b: 255 }),
+    ("Violet", Rgb { r: 124, g: 92, b: 255 }),
+    ("Rose", Rgb { r: 255, g: 0, b: 128 }),
+    ("Blanc", Rgb { r: 255, g: 255, b: 255 }),
+];
+
 pub struct ColorPicker {
     hsva: Hsva,
     hex: String,
@@ -151,14 +163,51 @@ impl ColorPicker {
             self.last = Some(*rgb);
         }
 
+        // presets
+        ui.horizontal_wrapped(|ui| {
+            ui.spacing_mut().item_spacing = vec2(5.0, 5.0);
+            for &(name, c) in PRESETS {
+                let (rect, resp) = ui.allocate_exact_size(vec2(20.0, 20.0), Sense::click());
+                let is_selected = *rgb == c;
+                ui.painter().rect_filled(rect, CornerRadius::same(4), to_color32(c));
+                ui.painter().rect_stroke(
+                    rect,
+                    CornerRadius::same(4),
+                    Stroke::new(
+                        if is_selected { 2.0 } else { 1.0 },
+                        if is_selected { p.accent } else { p.border },
+                    ),
+                    StrokeKind::Inside,
+                );
+                if resp.on_hover_text(name).clicked() {
+                    *rgb = c;
+                    self.hsva = Hsva::from_srgb([c.r, c.g, c.b]);
+                    self.hex = hex(c);
+                    self.last = Some(c);
+                    changed = true;
+                }
+            }
+        });
+
         // hex
         ui.horizontal(|ui| {
             let (sw, _) = ui.allocate_exact_size(vec2(26.0, 26.0), Sense::hover());
             ui.painter()
                 .rect_filled(sw, CornerRadius::same(6), to_color32(*rgb));
+            ui.painter().rect_stroke(
+                sw,
+                CornerRadius::same(6),
+                Stroke::new(1.0, p.border),
+                StrokeKind::Inside,
+            );
+            ui.label(
+                egui::RichText::new("Hex :")
+                    .font(theme::regular(13.0))
+                    .color(p.text_dim),
+            );
             let edit = ui.add(
                 TextEdit::singleline(&mut self.hex)
-                    .desired_width(86.0)
+                    .desired_width(75.0)
                     .font(theme::regular(13.0)),
             );
             if edit.changed()

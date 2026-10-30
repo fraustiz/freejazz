@@ -853,7 +853,7 @@ impl<P: Port> Manager<P> {
     /// while a live stream runs, which owns the lighting.
     fn preview_led(&mut self, led: &LedEffect) {
         if self.live.is_some() {
-            return;
+            self.live_end();
         }
         if let Err(e) = self.require_backup() {
             self.events.push(Event::Failed(e.message()));

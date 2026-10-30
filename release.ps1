@@ -18,6 +18,7 @@ if (Test-Path $stage) { Remove-Item $stage -Recurse -Force }
 New-Item -ItemType Directory $stage | Out-Null
 foreach ($file in 'freejazz.exe', 'freejazz-cli.exe') { Copy-Item (Join-Path 'dist' $file) $stage }
 foreach ($file in 'README.md', 'LICENSE') { Copy-Item $file $stage }
+Get-ChildItem dist\*.dll, dist\*.pri | ForEach-Object { Copy-Item $_.FullName $stage }
 
 $zip = Join-Path 'dist' "$name.zip"
 if (Test-Path $zip) { Remove-Item $zip -Force }

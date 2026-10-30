@@ -5,3 +5,6 @@ dist/
 *.log
 /backups/
 docs/superpowers/
+.agents/
+brag-output/
+skills-lock.json

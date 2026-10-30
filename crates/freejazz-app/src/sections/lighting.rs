@@ -28,9 +28,7 @@ use effects::is_custom;
 /// At most 25 frames a second (protocol.md 6.12: the keyboard keeps up with 30).
 const FRAME_INTERVAL: Duration = Duration::from_millis(40);
 
-/// How long a change waits before it is sent to the keyboard (a slider drag or a
-/// colour pick makes many).
-const PREVIEW_DELAY: Duration = Duration::from_millis(150);
+
 
 /// The built-in effect shown on the keyboard before « Appliquer ».
 #[derive(Default)]
@@ -233,9 +231,16 @@ impl LightingUi {
         if shown == target {
             return;
         }
-        let wait = self.sync.sent_at.map_or(Duration::ZERO, |t| {
-            PREVIEW_DELAY.saturating_sub(t.elapsed())
-        });
+        let is_discrete = target.mode != shown.mode
+            || target.color_mode != shown.color_mode
+            || target.direction != shown.direction;
+        let wait = if is_discrete {
+            Duration::ZERO
+        } else {
+            self.sync.sent_at.map_or(Duration::ZERO, |t| {
+                Duration::from_millis(50).saturating_sub(t.elapsed())
+            })
+        };
         if wait.is_zero() {
             device.send(Request::PreviewLed(Box::new(target.clone())));
             self.sync.keyboard = Some(target);
@@ -409,13 +414,18 @@ pub fn show(
                     }
                 });
             }
-            if led.color_mode == 0 {
-                labelled(ui, p, "Couleur");
-                if ui_state.effect_picker.show(ui, p, &mut remembered.0) {
-                    led.rgb = remembered.0;
-                    remembered.1 = 0;
-                    led.color_mode = 0;
-                }
+            labelled(ui, p, "Couleur");
+            if led.color_mode == 1 {
+                hint(
+                    ui,
+                    p,
+                    "L'effet est en multicolore. Choisir une couleur ci-dessous bascule en « Une couleur ».",
+                );
+            }
+            if ui_state.effect_picker.show(ui, p, &mut remembered.0) {
+                led.rgb = remembered.0;
+                remembered.1 = 0;
+                led.color_mode = 0;
             }
         }
         if effect.has_speed {

@@ -165,31 +165,34 @@ impl KeyTest {
 
     /// Reads this frame's key events, and the held modifiers (left side only).
     pub fn read_input(&mut self, input: &egui::InputState, layout: &Layout) {
-        if let Some(sub) = &self.hook {
-            // every key, whatever its side or kind; only while the window has focus
-            let events = sub.drain();
-            if !input.focused {
-                self.pressed.clear();
-                return;
-            }
-            for e in events.into_iter().filter(|e| !e.repeat && e.foreground) {
-                if let Some(index) = e.index {
-                    self.set_pressed(index, e.down);
-                }
-            }
-            return;
-        }
         if !input.focused {
             self.pressed.clear();
             return;
         }
+
+        // 1. Hook events: catches Pause, PrintScreen, Win, numpad, right modifiers.
+        // Accepts events if either foreground flag is set or egui confirms the window is focused.
+        if let Some(sub) = &self.hook {
+            let events = sub.drain();
+            for e in events.into_iter().filter(|e| !e.repeat && (e.foreground || input.focused)) {
+                if let Some(index) = e.index {
+                    self.set_pressed(index, e.down);
+                }
+            }
+        }
+
+        // 2. Direct window events: fallback and dual-feed so that standard keys (letters, digits,
+        // space, enter, escape, arrows, function keys) always register even if the low-level hook
+        // is blocked, filtered by an overlay, or fails to deliver scan codes on a given PC.
         for event in &input.events {
             if let egui::Event::Key {
                 key,
                 physical_key,
                 pressed,
+                repeat,
                 ..
             } = event
+                && !*repeat
                 && let Some(code) = code_of(physical_key.unwrap_or(*key))
                 && let Some(index) = index_of_code(layout, &code)
             {
